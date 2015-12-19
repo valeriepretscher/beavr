@@ -29,10 +29,10 @@ Technologies:
 * [Mocha](http://mochajs.org/): test framework.
 * [Sinon](http://sinonjs.org/): test spies, stubs and mocks.
 * [Eslint](http://eslint.org/): The pluggable linting utility for JavaScript and JSX.
-* [Travis](https://travis-ci.org/): Test and deploy. [![Build Status](https://travis-ci.org/FredericHeem/starhackit.svg?branch=master)](https://travis-ci.org/FredericHeem/starhackit)
-* [CodeClimate](https://codeclimate.com): Automated code review [![Code Climate](https://codeclimate.com/github/FredericHeem/starhackit/badges/gpa.svg)](https://codeclimate.com/github/FredericHeem/starhackit)
-[![Test Coverage](https://codeclimate.com/github/FredericHeem/starhackit/badges/coverage.svg)](https://codeclimate.com/github/FredericHeem/starhackit/coverage)
-* [Coveralls](https://coveralls.io): [![Coverage Status](https://coveralls.io/repos/FredericHeem/starhackit/badge.svg?branch=master)](https://coveralls.io/r/FredericHeem/starhackit?branch=master)
+* [Travis](https://travis-ci.org/): Test and deploy. [![Build Status](https://travis-ci.org/Beavr/beavr.svg?branch=master)](https://travis-ci.org/Beavr/beavr)
+* [CodeClimate](https://codeclimate.com): Automated code review [![Code Climate](https://codeclimate.com/github/Beavr/beavr/badges/gpa.svg)](https://codeclimate.com/github/Beavr/beavr)
+[![Test Coverage](https://codeclimate.com/github/Beavr/Beavr/badges/coverage.svg)](https://codeclimate.com/github/Beavr/beavr/coverage)
+* [Coveralls](https://coveralls.io): [![Coverage Status](https://coveralls.io/repos/Beavr/beavr/badge.svg?branch=master)](https://coveralls.io/r/Beavr/beavr?branch=master)
 * [DevLab](https://github.com/TechnologyAdvice/DevLab): Containerize your development workflow.
 * [Trevor](https://github.com/vdemedes/trevor): Your own Travis CI to run tests locally.
 
