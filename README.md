@@ -38,22 +38,6 @@ Technologies:
 
 # Workflow
 
-## Yeoman generator
-
-The easiest way to bootstrap your application is to use the [Starhackit Yeoman generator](https://github.com/FredericHeem/generator-starhackit).
-
-First install *yo* and *generator-starhackit* globally:
-
-```bash
-npm install -g yo generator-starhackit
-```
-
-Finally, initiate the generator and answer the questions about your project:
-
-```bash
-mkdir yourproject && cd $_
-yo starhackit
-```
 
 ## Docker containers
 
