@@ -60,6 +60,7 @@ ccd9f559fabd        rabbitmq:latest     "/docker-entrypoint.s"   36 minutes ago 
 To start the backend:
 
     # cd server
+    # npm install
     # npm start
 
 To test the backend:
@@ -74,6 +75,7 @@ For more information about the backend, see its [README](server/README.md)
 
 To run the frontend webserver:
 
+    # npm install
     # npm start
 
 Now open a browser at `http://localhost:8080`
