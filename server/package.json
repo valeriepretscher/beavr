@@ -84,7 +84,7 @@
     "coveralls": "2.11.4",
     "devlab": "1.5.1",
     "isparta": "3.1.0",
-    "istanbul": "0.3.22",
+    "istanbul": "^0.3.22",
     "mocha": "2.3.3",
     "mochawait": "2.0.1",
     "restauth": "0.1.2",
