@@ -10,8 +10,8 @@ export default function MailJob (config){
   let subscriber = createSubscriber(config);
   log.debug("MailJob options: ", config.mail);
   let transporter;
-  if (config.mail && config.mail.smtp) {
-    transporter = nodemailer.createTransport(config.mail.smtp);
+  if (config.mail && config.mail.options) {
+    transporter = nodemailer.createTransport(config.mail.options);
   } else {
     log.warn("no mail configuration");
   }
