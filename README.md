@@ -55,6 +55,9 @@ To check that the containers are running:
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                                         NAMES
 ccd9f559fabd        rabbitmq:latest     "/docker-entrypoint.s"   36 minutes ago      Up 36 minutes       4369/tcp, 25672/tcp, 0.0.0.0:5672->5672/tcp   devlab_rabbitmq_frederic_1446641005596
 ```
+
+**Note regarding Mac OS X:** If you are using Docker under Mac OS X, your containers will run in a virtual machine instead of your Mac directly. You need to go through the services (e.g. ```"rabbitmq"```) defined in ```server/config/default.json``` (or whichever file you are currently using) and set them to the IP that is mapped to your Docker VM.
+
 ## Backend
 
 To start the backend:
