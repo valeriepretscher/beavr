@@ -139,7 +139,7 @@ describe('MailJob', function () {
     it('login failed', async(done) => {
       let badPasswordConfig = _.clone(config, true);
       //console.log(JSON.stringify(badPasswordConfig));
-      badPasswordConfig.mail.smtp.auth.pass = "1234567890";
+      badPasswordConfig.mail.options.auth.pass = "1234567890";
 
       let mailJob = new MailJob(badPasswordConfig);
 
