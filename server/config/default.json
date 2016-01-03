@@ -33,7 +33,7 @@
     "facebook":{
       "clientID":"910851042302050",
       "clientSecret":"95ded6fc7c532a3017c49a3b2c0c1d75",
-      "callbackURL": "http://localhost:3000/v1/auth/facebook/callback"
+      "callbackURL": "http://localhost:8080/api/v1/auth/facebook/callback"
     }
   },
   "mail": {
