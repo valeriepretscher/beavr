@@ -2,3 +2,4 @@ node_modules
 db.dev.sqlite
 npm-debug.log
 build
+coverage
