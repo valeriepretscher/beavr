@@ -1,6 +1,5 @@
 let assert = require('assert');
 import sinon from 'sinon';
-import {Client} from 'restauth';
 import testMngr from '~/test/testManager';
 
 import UserUtils from './userUtils';
@@ -44,45 +43,12 @@ describe('UserRegister', function() {
     console.log("#users after ", countAfter);
 
     assert.equal(countBefore + usersToAdd, countAfter);
-    let username = createUsernameRandom();
-    let userConfig = {
-      username: username,
-      password:'password',
-      email: username + "@mail.com"
-    };
 
-    let res = await client.post('v1/auth/register', userConfig);
-    assert(res);
-    assert(res.success);
-    res = await models.UserPending.find({
-      where: {
-        email: userConfig.email
-      }
-    });
-    assert(res);
-    let userPending = res.get();
-    assert(userPending.username, userConfig.username);
-    assert(userPending.email, userConfig.email);
   });
 
   it('shoud register a user', async () => {
-      await client.get('v1/me');
-      assert(false);
-    } catch(error){
-      assert(error);
-    }
 
-    await client.post('v1/auth/verify_email_code', {code:userPending.code});
     let userConfig = await userUtils.registerRandom(models, client);
-      where: {
-        email: userConfig.email
-      }
-    });
-    assert(res);
-    let user = res.get();
-    assert(user.username, userConfig.username);
-    assert(user.email, userConfig.email);
-    //console.log("user password ", user.password);
 
     //The user shoud no longer be in the user_pendings table
     let res = await models.UserPending.find({
@@ -140,11 +106,6 @@ describe('UserRegister', function() {
   });
   it('shoud register twice a user', async () => {
     let userConfig =  userUtils.createRandomRegisterConfig();
-    let userConfig = {
-      username: username,
-      password:'password',
-      email: username + "@mail.com"
-    };
 
     let res = await client.post('v1/auth/register', userConfig);
     assert(res);
