@@ -1,4 +1,3 @@
-import assert from 'assert';
 import Promise from 'bluebird';
 import _ from 'lodash';
 import {Client} from 'restauth';
@@ -10,11 +9,7 @@ let log = require('logfilename')(__filename);
 let TestMngr = function(){
   log.debug("TestMngr");
 
-  this.app = App();
-
   let users = require(__dirname + '/fixtures/models/users.json');
-
-  log.debug("TestMngr");
 
   let clientsMap = {};
 
@@ -24,7 +19,6 @@ let TestMngr = function(){
       userConfig.url = 'http://localhost:9000/api/';
       return new Client(userConfig);
     },
-  });
 
     client(name){
       return clientsMap[name];
