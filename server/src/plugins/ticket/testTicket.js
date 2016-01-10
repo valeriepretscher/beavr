@@ -7,7 +7,7 @@ describe('Ticket', function() {
       await testMngr.start();
       client = testMngr.client('alice');
       assert(client);
-      //await client.login();
+      await client.login();
   });
   after(async () => {
       await testMngr.stop();
