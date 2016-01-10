@@ -10,7 +10,10 @@ import config from 'config';
 import MailJob from './jobs/mail/MailJob';
 
 import MeRouter from './me/MeRouter';
+
 import UserRouter from './user/UserRouter';
+import UserApi from './user/UserApi';
+
 import AuthenticationRouter from './authentication/AuthenticationRouter';
 
 let log = new Log(__filename);
@@ -30,16 +33,22 @@ export default function UserPlugin(app){
 
   let mailJob = MailJob(config);
 
-  let startStop = [mailJob, publisher];
+  let parts = [mailJob, publisher];
 
   return {
     publisher:publisher,
     async start(){
-      await Promise.each(startStop, obj => obj.start(app));
+      try {
+        for (let part of parts) {
+          await part.start(app);
+        };
+      } catch(error){
+        log.error(`cannot start: ${error}`);
+      }
     },
 
     async stop(){
-      await Promise.each(startStop, obj => obj.stop(app));
+      await Promise.each(parts, obj => obj.stop(app));
     },
 
     seedDefault(){
@@ -68,7 +77,8 @@ function setupRouter(app, publisherUser){
   MeRouter(app);
 
   //Users
-  UserRouter(app);
+  let userApi = UserApi(app);
+  UserRouter(app, userApi);
 }
 
 function createPublisher(){

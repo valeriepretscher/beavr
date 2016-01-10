@@ -2,14 +2,16 @@ let assert = require('assert');
 import sinon from 'sinon';
 import {Client} from 'restauth';
 import testMngr from '~/test/testManager';
-let chance = require('chance')();;
+
+import UserUtils from './userUtils';
 
 describe('UserRegister', function() {
   let app = testMngr.app;
-  let models = app.data.sequelize.models;
+  this.timeout(600e3)
+  let models = app.data.models();
   let client;
   let sandbox;
-
+  let userUtils = UserUtils();
   before(async () => {
       await testMngr.start();
       sandbox = sinon.sandbox.create();
@@ -26,15 +28,22 @@ describe('UserRegister', function() {
   });
 
   beforeEach(async () => {
-    client = new Client();
+    client = testMngr.createClient();
   });
+  it('shoud register up to n users', async () => {
 
-  function createUsernameRandom() {
-    let username = chance.name();
-    return username;
-  }
+    let countBefore = await models.User.count();
+    assert(countBefore > 0);
+    let usersToAdd = 100;
+    // Limit to 1 when using sqlite
+    let limit = 50;
+    await userUtils.createBulk(models, client, usersToAdd, limit);
+    let countAfter = await models.User.count();
+    console.log("users to add ", usersToAdd);
+    console.log("#users before ", countBefore);
+    console.log("#users after ", countAfter);
 
-  it('shoud register a user', async () => {
+    assert.equal(countBefore + usersToAdd, countAfter);
     let username = createUsernameRandom();
     let userConfig = {
       username: username,
@@ -54,9 +63,9 @@ describe('UserRegister', function() {
     let userPending = res.get();
     assert(userPending.username, userConfig.username);
     assert(userPending.email, userConfig.email);
-    assert(userPending.code);
+  });
 
-    try {
+  it('shoud register a user', async () => {
       await client.get('v1/me');
       assert(false);
     } catch(error){
@@ -64,7 +73,7 @@ describe('UserRegister', function() {
     }
 
     await client.post('v1/auth/verify_email_code', {code:userPending.code});
-    res = await models.User.find({
+    let userConfig = await userUtils.registerRandom(models, client);
       where: {
         email: userConfig.email
       }
@@ -76,12 +85,18 @@ describe('UserRegister', function() {
     //console.log("user password ", user.password);
 
     //The user shoud no longer be in the user_pendings table
-    res = await models.UserPending.find({
+    let res = await models.UserPending.find({
       where: {
         email: userConfig.email
       }
     });
     assert(!res);
+
+    // registering when user is already registered
+    res = await client.post('v1/auth/register', userConfig);
+    assert(res);
+    assert(res.success);
+    assert.equal(res.message, "confirm email");
 
     // Should login now
     let loginParam = {
@@ -124,7 +139,7 @@ describe('UserRegister', function() {
     }
   });
   it('shoud register twice a user', async () => {
-    let username = createUsernameRandom();
+    let userConfig =  userUtils.createRandomRegisterConfig();
     let userConfig = {
       username: username,
       password:'password',

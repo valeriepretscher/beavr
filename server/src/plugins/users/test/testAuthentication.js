@@ -13,7 +13,7 @@ describe('Authentication', function(){
   });
 
   beforeEach(async () => {
-    client = new Client();
+    client = testMngr.createClient();
   });
 
   describe('After Login', () => {

@@ -13,7 +13,7 @@ describe('Facebook', function(){
   });
 
   beforeEach(async () => {
-    client = new Client();
+    client = testMngr.createClient();
   });
 
   it('should login', async () => {

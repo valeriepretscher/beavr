@@ -89,6 +89,7 @@ module.exports = function(sequelize, DataTypes) {
             log.info("create user");
             let userCreated = await models.User.create(userJson, {transaction: t});
             await models.UserGroup.addUserIdInGroups(groups, userCreated.get().id, t );
+            //log.info("user created ", userCreated.get().id);
             return userCreated;
           })
           .catch(function (err) {

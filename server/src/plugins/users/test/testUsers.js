@@ -1,4 +1,5 @@
 import assert from 'assert';
+import _ from 'lodash';
 import testMngr from '~/test/testManager';
 
 describe('Users', function() {
@@ -21,14 +22,26 @@ describe('Users', function() {
     it('should get all users', async () => {
       let users = await client.get('v1/users');
       assert(users);
+      assert(Number.isInteger(users.count));
+      assert(users.data);
+
+      console.log(users);
+      for(let user of users.data){
+        let userGetOne = await client.get(`v1/users/${user.id}`);
+        assert(userGetOne);
+        console.log('user ' , userGetOne);
+        _.isEqual(user, userGetOne);
+      }
     });
     it('should get all users with filter ASC', async () => {
-      let users = await client.get('v1/users?offset=10&order=ASC&limit=100');
-      assert(users);
+      let res = await client.get('v1/users?offset=1&order=ASC&limit=10');
+      assert.equal(res.data.length, 10);
+      //console.log(res.data[0])
+      assert.equal(res.data[0].id, 2);
     });
     it('should get all users with filter DESC', async () => {
-      let users = await client.get('v1/users?offset=10&order=DESC&limit=100');
-      assert(users);
+      let res = await client.get('v1/users?offset=10&limit=10');
+      assert.equal(res.data.length, 10);
     });
     it('should get one user', async () => {
       let user = await client.get('v1/users/1');

@@ -8,13 +8,13 @@
     }
   },
   "rabbitmq": {
-    "url":"amqp://192.168.99.100"
+    "url":"amqp://localhost"
   },
   "frontend": {
     "path": "../client/build"
   },
   "http": {
-    "port": 3000
+    "port": 9000
   },
   "db":{
      // pg, sqlite3  etc ...
@@ -27,7 +27,11 @@
     "host": "localhost",
     "port": "5432",
     "logging": true,
-    "storage": "./db.dev.sqlite"
+    "storage": "./db.dev.sqlite",
+    "pool": {
+      "maxConnections": 100,
+      "maxIdleTime": 60
+    }
   },
   "authentication":{
     "facebook":{
