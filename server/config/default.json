@@ -8,7 +8,7 @@
     }
   },
   "rabbitmq": {
-    "url":"amqp://localhost"
+    "url":"amqp://192.168.99.100"
   },
   "frontend": {
     "path": "../client/build"
