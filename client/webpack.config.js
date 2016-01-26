@@ -14,8 +14,7 @@ module.exports = function ( options ) {
     var config = _.merge( {}, {
         entry: {
             vendor: [
-                'bootstrap/dist/js/bootstrap.min.js',
-                'assets/css/bootstrap-cosmo.css',
+                'assets/css/toolkit-beavr.css',
                 'assets/css/animate.css',
                 'font-awesome/css/font-awesome.min.css',
                 'assets/css/filepicker.css',
