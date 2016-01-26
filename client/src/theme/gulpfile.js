@@ -12,8 +12,8 @@ var open         = require('gulp-open')
 
 var Paths = {
   HERE                 : './',
-  DIST                 : 'dist',
-  DIST_TOOLKIT_JS      : 'dist/toolkit.js',
+  DIST                 : '../assets',
+  DIST_TOOLKIT_JS      : '../assets/js/toolkit.js',
   LESS_TOOLKIT_SOURCES : './less/toolkit*',
   LESS                 : './less/**/**',
   JS                   : [
@@ -33,7 +33,7 @@ var Paths = {
     ]
 }
 
-gulp.task('default', ['less', 'less-min', 'js-min'])
+gulp.task('default', ['less'])
 
 gulp.task('watch', function () {
   gulp.watch(Paths.LESS, ['less-min']);
@@ -60,8 +60,7 @@ gulp.task('less', function () {
     .pipe(less())
     .pipe(autoprefixer())
     .pipe(sourcemaps.write(Paths.HERE))
-    .pipe(gulp.dest('dist'))
-    .pipe(gulp.dest('docs/assets/css'))
+    .pipe(gulp.dest('../assets/css'))
 })
 
 gulp.task('less-min', ['less'], function () {
