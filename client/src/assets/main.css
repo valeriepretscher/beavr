@@ -152,24 +152,6 @@
 .bootstrap-modal .modal {
   z-index: 10000;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  padding-top: 5px;
-  width: 100%;
-  height: 60px;
-  border-color: transparent;
-  box-shadow: 0px -1px 2px rgba(0,0,0,0.3);
-}
-.footer .content {
-  font-size: 15px;
-}
-.footer .share-this {
-  padding-top: 10px;
-}
-.footer .share-this [id^=___plusone] {
-  width: 72px !important;
-}
 .markdown-editor textarea {
   padding: 5px;
   line-height: 22px;
@@ -202,21 +184,6 @@
 .media-signin-buttons .link-signup .fa {
   font-size: 20px;
   padding-right: 15px;
-}
-.navbar-component .btn-profile {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 6px;
-  padding-right: 6px;
-  color: #fff;
-  background-color: #58a6e6;
-}
-.navbar-component .caption {
-  padding-right: 5px;
-}
-.navbar-component .caption .user-avatar {
-  height: 25px;
-  border-radius: 3px;
 }
 .spinner {
   text-align: center;
@@ -378,4 +345,83 @@ body {
 .zoom-leave-active {
   opacity: 0.01;
   transform: scale3d(0.3, 0.3, 0.3);
+}
+.block {
+  overflow: hidden;
+}
+.app-navbar {
+  font-size: 13px;
+  letter-spacing: 0.15em;
+}
+.app-navbar .navbar-brand {
+  font-size: 13px;
+}
+.app-block-intro {
+  padding-top: 20px;
+}
+.app-block-intro img {
+  width: 80%;
+  margin-bottom: -45%;
+}
+.app-block-game img,
+.app-block-stats img {
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .app-block-game-img {
+    transform: scale(1.5) !important;
+  }
+}
+.app-block-stats hr {
+  width: calc(80% + 60px);
+}
+.app-block-design > .container > .row {
+  z-index: 2;
+}
+.app-block-design-img {
+  margin-top: -60px;
+  margin-left: -450px;
+  float: left;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .app-block-design-img {
+    margin-top: -220px;
+    margin-left: 0;
+  }
+}
+.app-block-footer {
+  background-color: #1b1c1d;
+  color: #444;
+  color: rgba(116,119,123,0.5);
+}
+.app-translate-15 {
+  -webkit-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  transform: translateY(15px);
+}
+.app-translate-50 {
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+}
+.app-translate-5 {
+  -webkit-transform: translateY(5%);
+  -ms-transform: translateY(5%);
+  transform: translateY(5%);
+}
+.app-translate-10 {
+  -webkit-transform: translateY(10%);
+  -ms-transform: translateY(10%);
+  transform: translateY(10%);
+}
+@media (max-width: 400px) {
+  .app-myphone-brand {
+    font-size: 46px !important;
+  }
+}
+@media (max-width: 350px) {
+  .app-myphone-brand {
+    font-size: 42px !important;
+  }
 }
