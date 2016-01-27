@@ -33,6 +33,13 @@ This command also statically analyze the code with eslint and generate a code co
 
 [sequelize-cli](https://github.com/sequelize/cli) helps to manage the database migration and rollback.
 
+## Connect to Postgrss on Heroku
+
+  * Make sure heroku cli is installed
+  * run `heroku login`
+  * Install postgres locally (need psql client)
+  * run `heroku pg:psql`
+
 ## Database migration
 Run the following command to migrate the database:
 

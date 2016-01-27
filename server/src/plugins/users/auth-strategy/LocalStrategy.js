@@ -5,7 +5,7 @@ export async function verifyLogin(models, username, password) {
   log.debug("loginStrategy username: ", username);
   let user = await models.User.find({
     where: {
-      $or: [{email: username}, {username: username}]
+      $or: [{email: username}]
     }
   });
   if (!user) {
@@ -37,7 +37,7 @@ export async function verifyLogin(models, username, password) {
 export function register(passport, models) {
   log.debug("register");
   let loginStrategy = new LocalStrategy({
-      usernameField: 'username',
+      usernameField: 'email',
       passwordField: 'password',
       passReqToCallback: false
     },

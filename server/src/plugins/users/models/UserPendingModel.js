@@ -6,7 +6,8 @@ module.exports = function(sequelize, DataTypes) {
     email: DataTypes.STRING(64),
     password: DataTypes.STRING(64),
     passwordHash: DataTypes.STRING,
-    code: DataTypes.TEXT(16)
+    code: DataTypes.TEXT(16),
+    type: DataTypes.STRING(64)
   }, {
     tableName:"user_pendings",
     classMethods: {

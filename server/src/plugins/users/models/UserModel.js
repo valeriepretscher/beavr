@@ -23,6 +23,11 @@ module.exports = function(sequelize, DataTypes) {
     lastName: {
       type: DataTypes.STRING(64)
     },
+    type: {
+      type: DataTypes.STRING(64),
+      unique: false,
+      allowNull: false
+    },
     facebookId: {
       type: DataTypes.TEXT,
       unique: true

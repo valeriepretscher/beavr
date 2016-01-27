@@ -17,8 +17,10 @@ export async function verify(models, publisherUser, req, accessToken, refreshTok
   if (user) {
     log.debug("user already exist: ", user.toJSON());
     return {
-      user: user.toJSON()
-    };
+      user: user.toJSON(),
+      success: false,
+      message: "already registered"
+      };
   }
 
   log.debug("no fb profile registered");
@@ -32,7 +34,9 @@ export async function verify(models, publisherUser, req, accessToken, refreshTok
     log.debug("email already registered");
     //should update fb profile id
     return {
-      user: userByEmail.toJSON()
+      user: userByEmail.toJSON(),
+      success: false,
+      message: "already registered"
     };
   }
 

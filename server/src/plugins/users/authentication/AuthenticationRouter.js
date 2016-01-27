@@ -41,7 +41,7 @@ export function AuthenticationHttpController(app, publisherUser){
       return respond(context, authApi, authApi.createPending, [context.request.body]);
     },
     async verifyEmailCode(context){
-      return respond(context, authApi, authApi.verifyEmailCode, [context.request.body]);
+      return respond(context, authApi, authApi.verifyEmailCode, [context.params]);
     },
     async resetPassword(context){
       return respond(context, authApi, authApi.resetPassword, [context.request.body]);
@@ -59,7 +59,7 @@ export default function AuthenticationRouter(app, publisherUser){
   router.post('/logout', authHttpController.logout);
   router.post('/register', authHttpController.register);
   router.post('/reset_password', authHttpController.resetPassword);
-  router.post('/verify_email_code', authHttpController.verifyEmailCode);
+  router.get('/verify_email_code/:code', authHttpController.verifyEmailCode);
   router.post('/verify_reset_password_token', authHttpController.verifyResetPasswordToken);
 
   router.get('/facebook', passport.authenticate('facebook', { scope: ['email'] }));

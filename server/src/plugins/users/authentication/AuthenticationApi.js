@@ -10,6 +10,15 @@ export default function(app, publisherUser) {
   return {
     async createPending(userPendingIn) {
       validateJson(userPendingIn, require('./schema/createPending.json'));
+      let userType = userPendingIn.type;
+
+      if (userType != "Worker" && userType != "Employer") {
+        return {
+          success: false,
+          message: "Invalid user type, allowed values. type:[Worker, Employer]"
+        };
+      }
+
       log.debug("createPending: ", userPendingIn);
       let user = await models.User.findByEmail(userPendingIn.email);
 
@@ -19,14 +28,20 @@ export default function(app, publisherUser) {
           code: code,
           username: userPendingIn.username,
           email: userPendingIn.email,
-          password: userPendingIn.password
+          password: userPendingIn.password,
+          type: userPendingIn.type
         };
         log.info("createPending code ", userPendingOut.code);
         await models.UserPending.create(userPendingOut);
         delete userPendingOut.password;
         await publisherUser.publish("user.registering", JSON.stringify(userPendingOut));
-      } else {
+      } else if (user) {
         log.info("already registered", userPendingIn.email);
+        return {
+          success: false,
+          user: user.toJSON(),
+          message: "already registered"
+        };
       }
       return {
         success: true,
@@ -45,7 +60,7 @@ export default function(app, publisherUser) {
       if(res){
         let userPending = res.get();
         log.debug("verifyEmailCode: userPending: ", userPending);
-        let userToCreate = _.pick(userPending, 'username', 'email', 'passwordHash');
+        let userToCreate = _.pick(userPending, 'username', 'email', 'passwordHash', 'type');
         //TODO transaction
         let user = await models.User.createUserInGroups(userToCreate, ["User"]);
         await models.UserPending.destroy({
@@ -53,7 +68,7 @@ export default function(app, publisherUser) {
             code:param.code
           }
         });
-        //log.debug("verifyEmailCode: created user ", user.toJSON());
+        log.debug("verifyEmailCode: created user ", user.toJSON());
         await publisherUser.publish("user.registered", JSON.stringify(user.toJSON()));
         return user.toJSON();
       } else {
