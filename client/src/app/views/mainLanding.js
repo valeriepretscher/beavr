@@ -17,7 +17,7 @@ export default React.createClass({
 
 
         return (
-            <div id="main-landing">
+            <div>
                 <DocTitle
                     title="Welcome"
                 />

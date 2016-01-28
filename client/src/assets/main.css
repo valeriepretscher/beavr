@@ -1,3 +1,10 @@
+#application {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+/* Negative indent footer by it's height */
+  margin: 0 auto -100px;
+}
 #application button.btn-xxs {
   padding: 1px 5px;
   font-size: 10px;
@@ -50,32 +57,6 @@
 }
 #forgot .spacer {
   margin-top: 15px;
-}
-#main-landing .header-container .header {
-  top: 64px;
-  left: 0;
-  right: 0;
-  width: 100%;
-  display: table;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-}
-#main-landing .header-container .header .text-vertical-center {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-#main-landing .header-container .header .text-vertical-center h1 {
-  font-size: 60px;
-}
-#main-landing .start-item {
-  text-align: center;
-  padding-bottom: 50px;
-}
-#main-landing #start {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 #profile .input-description {
   width: 100%;

@@ -17,9 +17,7 @@ export default React.createClass( {
             <div id="application-view">
                 <NavBar />
 
-                <div className="container">
                     {this.props.children}
-                </div>
 
                 <Footer />
 
