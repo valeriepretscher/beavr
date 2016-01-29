@@ -17,13 +17,21 @@
   }
 
   .navbar-nav {
+    .signup {
+        border-radius: 13px;
+        background: lighten(@brand-primary, 27%);
+        &:hover {
+          background-color: lighten(@brand-primary, 20%);
+      }
+    }
     > li > a {
+      margin-top: 3px;
+      font-size: @navbar-transparent-font-size;
       color: @navbar-transparent-link-color;
 
       &:hover,
       &:focus {
         color: @navbar-transparent-link-hover-color;
-        background-color: @navbar-transparent-link-hover-bg;
       }
     }
     > .active > a {
@@ -31,7 +39,6 @@
       &:hover,
       &:focus {
         color: @navbar-transparent-link-active-color;
-        background-color: @navbar-transparent-link-active-bg;
       }
     }
     > .disabled > a {
@@ -39,7 +46,6 @@
       &:hover,
       &:focus {
         color: @navbar-transparent-link-disabled-color;
-        background-color: @navbar-transparent-link-disabled-bg;
       }
     }
   }

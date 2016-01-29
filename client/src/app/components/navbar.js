@@ -24,7 +24,9 @@ export default React.createClass( {
                             <span className="icon-bar"></span>
                             <span className="icon-bar"></span>
                         </button>
-                        <Link to="/" className="navbar-brand">{config.title}</Link>
+                        <Link to="/" className="navbar-brand brand-logo">
+                            <img  width="115px" src="../assets/img/logo-red.png" />
+                        </Link>
                     </div>
                     <div className="navbar-collapse collapse">
                         <ul className="nav navbar-nav navbar-left">
@@ -43,8 +45,10 @@ export default React.createClass( {
     renderGuestNavigation() {
         return (
             <ul className="nav navbar-nav navbar-right">
+                <NavLink to="/seekers">Seekers</NavLink>
+                <NavLink to="/employers">Employers</NavLink>
                 <NavLink to="/login">Login</NavLink>
-                <NavLink to="/signup">Signup</NavLink>
+                <NavLink to="/signup" className="signup">Signup</NavLink>
             </ul>
         );
     },

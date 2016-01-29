@@ -19,17 +19,17 @@ export default React.createClass({
         return (
             <div>
                 <DocTitle
-                    title="Welcome"
+                    title="Be independent"
                 />
 
             <div className="block app-block-intro">
               <div className="container text-center">
                 <h1 className="block-title m-b-sm text-uppercase app-myphone-brand">Mochi</h1>
                 <p className="lead m-b-lg p-b-md">Task management and a calendar for all</p>
-                <img src="../assets/img/theme-img/iphone-to-iphone-sized.jpg" />
+                <img src="../assets/img/beavr-masthead-figures.png" />
               </div>
             </div>
-            <div className="block block-bordered-lg">
+            <div className="block block-lg p-0 pb-50">
               <div className="container text-center app-translate-15" data-transition="entrance">
                 <blockquote className="pull-quote">
                   <img className="img-circle" src="../assets/img/theme-img/avatar-mdo.png" />

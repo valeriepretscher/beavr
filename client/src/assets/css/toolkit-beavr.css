@@ -8373,25 +8373,31 @@ h1.block-title {
 .navbar-transparent .navbar-text {
   color: #ff5a59;
 }
+.navbar-transparent .navbar-nav .signup {
+  border-radius: 13px;
+  background: #ffe3e3;
+}
+.navbar-transparent .navbar-nav .signup:hover {
+  background-color: #ffbfbf;
+}
 .navbar-transparent .navbar-nav > li > a {
+  margin-top: 3px;
+  font-size: 20px;
   color: #ff5a59;
 }
 .navbar-transparent .navbar-nav > li > a:hover,
 .navbar-transparent .navbar-nav > li > a:focus {
   color: #ff2726;
-  background-color: transparent;
 }
 .navbar-transparent .navbar-nav > .active > a,
 .navbar-transparent .navbar-nav > .active > a:hover,
 .navbar-transparent .navbar-nav > .active > a:focus {
   color: #ff2726;
-  background-color: transparent;
 }
 .navbar-transparent .navbar-nav > .disabled > a,
 .navbar-transparent .navbar-nav > .disabled > a:hover,
 .navbar-transparent .navbar-nav > .disabled > a:focus {
   color: #ff8d8c;
-  background-color: transparent;
 }
 .navbar-transparent .navbar-toggle {
   border-color: #ff5a59;

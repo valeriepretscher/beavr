@@ -11,11 +11,9 @@
 @import 'views/user-profile';
 
 //modals
-
 @import 'modals/signup-or-login-to-save-changes';
 
 //components
-
 @import 'components/animated-modal';
 @import 'components/bootstrap-modal';
 @import 'components/footer';
@@ -33,80 +31,5 @@
 @import 'overrides';
 @import 'transitions';
 
-.block
-  overflow hidden
-
-.app-navbar
-  font-size 13px
-  letter-spacing .15em
-  .navbar-brand
-    font-size 13px
-
-.app-block-intro
-  padding-top 20px
-  img
-    width 80%
-    margin-bottom -45%
-
-.app-block-game img,
-.app-block-stats img
-  width 100%
-
-@media (max-width: 480px)
-  .app-block-game-img
-    transform scale(1.5) !important
-
-.app-block-stats
-  hr
-    width calc(80% + 60px)
-
-.app-block-design
-  & > .container
-    & > .row
-      z-index 2
-
-.app-block-design-img
-  margin-top -60px
-  margin-left -450px
-  float left
-  width 100%
-
-@media (min-width: 768px)
-  .app-block-design-img
-    margin-top -220px
-    margin-left 0
-
-.app-block-footer
-  background-color rgb(27, 28, 29)
-  color #444
-  color rgba(116, 119, 123, .5)
-
-.app-translate-15
-  -webkit-transform translateY(15px)
-  -ms-transform translateY(15px)
-  transform translateY(15px)
-
-.app-translate-50
-  -webkit-transform translateY(50px)
-  -ms-transform translateY(50px)
-  transform translateY(50px)
-
-.app-translate-5
-  -webkit-transform translateY(5%)
-  -ms-transform translateY(5%)
-  transform translateY(5%)
-
-.app-translate-10
-  -webkit-transform translateY(10%)
-  -ms-transform translateY(10%)
-  transform translateY(10%)
-
-@media (max-width: 400px)
-  .app-myphone-brand
-    font-size 46px !important
-
-@media (max-width: 350px)
-  .app-myphone-brand
-    font-size 42px !important
-
-
+// helpers
+@import 'helpers';
