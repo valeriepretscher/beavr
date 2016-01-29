@@ -15,7 +15,7 @@ export default React.createClass( {
 
     render() {
         return (
-          <li className={this.activeClassForTo(this.props.to)}><Link {...this.props}>{this.props.children}</Link></li>
+          <li><Link {...this.props}>{this.props.children}</Link></li>
         );
     }
 
