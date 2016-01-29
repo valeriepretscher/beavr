@@ -9,6 +9,7 @@ import Account from 'views/account';
 import Application from 'views/application';
 import Logout from 'views/logout';
 import MainLanding from 'views/mainLanding';
+import EmployerLanding from 'views/employerLanding';
 import UserProfile from 'views/userProfile';
 import RegistrationComplete from 'views/registrationComplete';
 import ResetPassword from 'views/resetPassword';
@@ -19,6 +20,9 @@ import UsersView from 'parts/admin/usersView';
 let routes = (
     <Route component={Application} name="home" path="/">
         <IndexRoute component={MainLanding}/>
+
+        <Route component={EmployerLanding} path="employers"/>
+
         <Route component={Login} path="login"/>
         <Route component={Signup} path="signup"/>
         <Route component={Logout} path="logout"/>
