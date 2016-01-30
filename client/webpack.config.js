@@ -15,9 +15,6 @@ module.exports = function ( options ) {
         entry: {
             vendor: [
                 'assets/css/toolkit-beavr.css',
-                'assets/css/animate.css',
-                'font-awesome/css/font-awesome.min.css',
-                'assets/css/filepicker.css',
                 'checkit',
                 'classnames',
                 'debug',
