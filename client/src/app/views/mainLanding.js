@@ -23,7 +23,7 @@ export default React.createClass({
 
             <div className="block pb-50 app-block-intro">
                 <div className="container text-center">
-                    <h1 className="block-title app-myphone-brand">be independent.</h1>
+                    <h1 className="block-title app-myphone-brand">Be independent.</h1>
                     <p className="lead">In every job that must be done, there is an element of fun.</p>
                     <img src="../assets/img/beavr-masthead-figures.png" />
                 </div>
@@ -31,7 +31,7 @@ export default React.createClass({
 
             <div className="block block-lg pt-30 app-block-stats">
                 <div className="container">
-                    <h1 className="block-title pb-50 text-center">showcase your inner beast</h1>
+                    <h1 className="block-title pb-50 text-center">Showcase your inner beast</h1>
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-center">
                             <img src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
@@ -41,13 +41,13 @@ export default React.createClass({
                             <div className="row m-y-md">
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">create</h2>
+                                        <h2 className="statcard-number block-title">Create</h2>
                                         <p className="lead">your profile with a few clicks.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number">show</h2>
+                                        <h2 className="statcard-number">Show</h2>
                                         <p className="lead">employers what you've truly got.</p>
                                     </div>
                                 </div>
@@ -55,13 +55,13 @@ export default React.createClass({
                             <div className="row hidden-sm">
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">collect</h2>
+                                        <h2 className="statcard-number block-title">Collect</h2>
                                         <p className="lead">all the information employers need in one place.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">display</h2>
+                                        <h2 className="statcard-number block-title">Display</h2>
                                         <p className="lead">recommendations from your past employers &amp; colleagues.</p>
                                     </div>
                                 </div>
@@ -71,36 +71,36 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg pt-30 app-block-stats">
+            <div className="block block-lg pt-0 pb-20 app-block-stats">
                 <div className="container">
-                    <h1 className="block-title pb-50 text-center">apply instantly &mdash; fast &amp; easy</h1>
+                    <h1 className="block-title pb-50 text-center">Apply instantly &mdash; fast &amp; easy</h1>
                     <div className="row">
                         <div className="col-md-6 col-md-offset-1 col-sm-6 text-xs-center text-sm-left">
                             <div className="row m-y-md">
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">create</h2>
-                                        <p className="lead">your profile with a few clicks.</p>
+                                        <h2 className="statcard-number block-title">Discover</h2>
+                                        <p className="lead">unique opportunities near you.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number">show</h2>
-                                        <p className="lead">employers what you've truly got.</p>
+                                        <h2 className="statcard-number">Throw out</h2>
+                                        <p className="lead">Your CVs and cover letters - on beavr you won't need them..</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row hidden-sm">
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">collect</h2>
-                                        <p className="lead">all the information employers need in one place.</p>
+                                        <h2 className="statcard-number block-title">Apply</h2>
+                                        <p className="lead">with a single click.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">display</h2>
-                                        <p className="lead">recommendations from your past employers &amp; colleagues.</p>
+                                        <h2 className="statcard-number block-title">Arrive</h2>
+                                        <p className="lead">at your job with all the information you need to shine.</p>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg pt-30 app-block-stats">
+            <div className="block block-lg pt-0 app-block-stats">
                 <div className="container">
                     <h1 className="block-title pb-50 text-center">directly message your employer</h1>
                     <div className="row">
@@ -124,28 +124,28 @@ export default React.createClass({
                             <div className="row m-y-md">
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">create</h2>
-                                        <p className="lead">your profile with a few clicks.</p>
+                                        <h2 className="statcard-number block-title">chat</h2>
+                                        <p className="lead">directly within the app.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number">show</h2>
-                                        <p className="lead">employers what you've truly got.</p>
+                                        <h2 className="statcard-number">clarify</h2>
+                                        <p className="lead">any questions you might have beforehand</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row hidden-sm">
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">collect</h2>
-                                        <p className="lead">all the information employers need in one place.</p>
+                                        <h2 className="statcard-number block-title">connect</h2>
+                                        <p className="lead">even before your first day has started</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">display</h2>
-                                        <p className="lead">recommendations from your past employers &amp; colleagues.</p>
+                                        <h2 className="statcard-number block-title">know</h2>
+                                        <p className="lead">exactly what lies ahead.</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,7 +154,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg pt-30 pb-30 app-block-stats">
+            <div className="block block-lg pt-30 pb-30 app-block-truck">
                 <div className="container">
                     <h1 className="block-title pb-50 text-center">start earning money with jobs you love</h1>
                     <div className="row">
@@ -162,28 +162,28 @@ export default React.createClass({
                             <div className="row m-y-md">
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">create</h2>
-                                        <p className="lead">your profile with a few clicks.</p>
+                                        <h2 className="statcard-number block-title">make</h2>
+                                        <p className="lead">your financial problems disappear.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6">
                                     <div className="statcard">
-                                        <h2 className="statcard-number">show</h2>
-                                        <p className="lead">employers what you've truly got.</p>
+                                        <h2 className="statcard-number">gain</h2>
+                                        <p className="lead">valuable experience with every single job.</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="row hidden-sm">
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">collect</h2>
-                                        <p className="lead">all the information employers need in one place.</p>
+                                        <h2 className="statcard-number block-title">discover</h2>
+                                        <p className="lead">the strengths that make you, you.</p>
                                     </div>
                                 </div>
                                 <div className="col-xs-6 m-b-lg">
                                     <div className="statcard">
-                                        <h2 className="statcard-number block-title">display</h2>
-                                        <p className="lead">recommendations from your past employers &amp; colleagues.</p>
+                                        <h2 className="statcard-number block-title">become</h2>
+                                        <p className="lead">a beavr pro today and say goodbye to boring job platforms.</p>
                                     </div>
                                 </div>
                             </div>
@@ -191,6 +191,26 @@ export default React.createClass({
                         <div className="col-md-5 col-sm-6 text-center">
                             <img src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
                             <hr className="m-t-0 m-b-lg m-x-auto visible-xs" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="block block-lg pt-30 app-block-stats">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-7 col-sm-6 text-center">
+                            <img src="../assets/img/seeker-giraffe.png" data-transition="entrance" />
+                            <hr className="m-t-0 m-b-lg m-x-auto visible-xs" />
+                        </div>
+                        <div className="col-md-5 col-sm-6 text-xs-center text-sm-left">
+                            <div className="row m-y-md text-center">
+                                <h1 className="block-title">Enjoy life!</h1>
+                                <h2>travel the world, buy a laser sowrd, get your own place, fly to the moon, acquire a hover board...
+                                    the possibilities are endless!</h2>
+                                <p>(and if you ever need to make more cash, we can help you out!)</p>
+                                <button className="btn btn-primary mt-30 btn-lg text-center m-5">Get started</button>
+                            </div>
                         </div>
                     </div>
                 </div>
