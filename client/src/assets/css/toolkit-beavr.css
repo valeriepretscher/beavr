@@ -771,8 +771,8 @@ pre code {
   margin-left: auto;
   padding-left: 10px;
   padding-right: 10px;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 0.5%;
 }
 @media (min-width: 768px) {
@@ -5105,6 +5105,12 @@ body {
 .btn-borderless {
   border: 0;
 }
+.btn-xl {
+  padding: 19px 29px;
+  font-size: 25px;
+  line-height: 1.2222222;
+  border-radius: 13px;
+}
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
@@ -8051,7 +8057,7 @@ fieldset[disabled] .btn-danger-outline.active {
 .container-fill-height {
   display: table;
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .container-fill-height .container-content-bottom,
 .container-fill-height .container-content-middle {
@@ -8076,6 +8082,13 @@ fieldset[disabled] .btn-danger-outline.active {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+.full-width {
+  max-width: 100% !important;
+  background-color: #e3f4f9 !important;
 }
 .block-overflow-hidden {
   overflow: hidden;
@@ -8286,7 +8299,7 @@ fieldset[disabled] .block-inverse .btn-outline.btn-default.active {
 }
 .h1.block-title,
 h1.block-title {
-  font-size: 56px;
+  font-size: 42px;
   line-height: 1;
 }
 .block .lead {
@@ -8364,7 +8377,7 @@ h1.block-title {
 .navbar-transparent {
   background-color: transparent;
   border: 0px;
-  padding-bottom: 5px !important;
+  padding-bottom: 27px !important;
   border-bottom: 1px solid #ffd9d9;
 }
 .navbar-transparent .navbar-brand {
@@ -8379,9 +8392,8 @@ h1.block-title {
   color: #ff5a59;
 }
 .navbar-transparent .navbar-nav .signup {
-  border-radius: 13px;
-  background: #ffe3e3;
-  color: #ff5a59;
+  border-radius: 9px;
+  border: 1px solid #ffd9d9;
 }
 .navbar-transparent .navbar-nav .signup:hover {
   background-color: #ffbfbf;

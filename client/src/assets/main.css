@@ -260,11 +260,19 @@ body {
   font-size: 13px;
 }
 .app-beavr-masthead {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 8%;
+  margin-bottom: 12%;
 }
 .masthead-title {
-  font-size: 92px;
+  font-size: 81px;
+  line-height: 81px;
+}
+.masthead-scroll-arrow {
+  display: block;
+  position: absolute;
+  bottom: 2%;
+  left: 49%;
+  right: auto;
 }
 .app-block-intro {
   padding-top: 20px;
@@ -274,29 +282,27 @@ body {
   width: 80%;
   border-bottom: none !important;
 }
-.app-block-game img,
-.app-block-stats img {
-  width: 70%;
+.app-block-profile img,
+.app-block-chat img {
+  height: 370px;
+}
+.app-block-race-car img {
+  margin-left: -70px;
+  width: 600px;
 }
 .app-block-truck img {
-  width: 100%;
+  height: 280px;
+}
+.app-block-giraffe img {
+  height: 500px;
 }
 @media (max-width: 480px) {
   .app-block-game-img {
     transform: scale(1.5) !important;
   }
 }
-.app-block-stats hr {
+.app-block-profile hr {
   width: calc(80% + 60px);
-}
-.app-block-racecar > .container > .row {
-  z-index: 2;
-}
-.app-block-racecar-img {
-  margin-top: -380px;
-  margin-right: -200px;
-  float: right;
-  width: 90%;
 }
 @media (min-width: 768px) {
   .app-block-racecar-img {
@@ -305,6 +311,7 @@ body {
   }
 }
 .app-block-footer {
+  padding-top: 70px;
   font-size: 15px;
   background-color: transparent;
   color: #424;

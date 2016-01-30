@@ -50,6 +50,7 @@
 
 @font-size-base:          14px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-xl:         ceil((@font-size-base * 1.75)); // ~29px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
 @font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
@@ -93,17 +94,22 @@
 @padding-large-vertical:    10px;
 @padding-large-horizontal:  16px;
 
+@padding-xl-vertical:    19px;
+@padding-xl-horizontal:  29px;
+
 @padding-small-vertical:    5px;
 @padding-small-horizontal:  10px;
 
 @padding-xs-vertical:       1px;
 @padding-xs-horizontal:     5px;
 
+@line-height-xl:            1.2222222; // extra decimals for Win 8.1 Chrome
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
 @border-radius-base:        4px;
 @border-radius-large:       6px;
+@border-radius-xl:          13px;
 @border-radius-small:       3px;
 
 //** Global color for active items (e.g., navs or dropdowns).
@@ -173,6 +179,7 @@
 // Allows for customizing button radius independently from global border radius
 @btn-border-radius-base:         @border-radius-base;
 @btn-border-radius-large:        @border-radius-large;
+@btn-border-radius-xl:           @border-radius-xl;
 @btn-border-radius-small:        @border-radius-small;
 
 
@@ -196,6 +203,8 @@
 @input-border-radius:            @border-radius-base;
 //** Large `.form-control` border radius
 @input-border-radius-large:      @border-radius-large;
+//** Small `.form-control` border radius
+@input-border-radius-xl:      @border-radius-xl;
 //** Small `.form-control` border radius
 @input-border-radius-small:      @border-radius-small;
 

@@ -10,6 +10,10 @@
   border: 0;
 }
 
+.btn-xl {
+  // line-height: ensure even-numbered height of button next to large input
+  .button-size(@padding-xl-vertical; @padding-xl-horizontal; @font-size-xl; @line-height-xl; @btn-border-radius-xl);
+}
 .btn-lg {
   // line-height: ensure even-numbered height of button next to large input
   .button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @btn-border-radius-large);
