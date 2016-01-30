@@ -1,5 +1,5 @@
 {
-  "websiteUrl": "https://beavr-backend.herokuapp.com",
+  "websiteUrl": "http://localhost:8080",
   "log": {
     "console": {
       "level": "debug",
@@ -8,7 +8,7 @@
     }
   },
   "rabbitmq": {
-    "url":"amqp://ktymwvhj:O5Z-dy6H742WtP-DN9LhGsa0L0lvf9po@moose.rmq.cloudamqp.com/ktymwvhj"
+    "url":"amqp://edutredb:fmp_NtHDjsjRhI-rBZNUWUnb1FqFX2oM@chicken.rmq.cloudamqp.com/edutredb"
   },
   "frontend": {
     "path": "../client/build"
@@ -38,13 +38,12 @@
     "driver": "pg",
     // postgres, sqlite
     "dialect":"postgres",
-    "database": "d58a3nnr7g0fep",
-    "user": "hhinuuvxzgtzno",
-    "password": "uIjjTyFQkC1ujvsyPSf6ucWxMv",
-    "host": "ec2-54-225-195-249.compute-1.amazonaws.com",
+    "database": "beavr",
+    "user": "beavr_pg_master",
+    "password": "bgi5rtppr9e4rtgm",
+    "host": "beavr-pg.csoeohuh53ux.eu-central-1.rds.amazonaws.com",
     "port": "5432",
     "logging": true,
-    "storage": "./db.dev.sqlite",
     "pool": {
       "maxConnections": 100,
       "maxIdleTime": 60
