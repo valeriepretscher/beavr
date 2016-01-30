@@ -22,16 +22,17 @@ export default React.createClass({
                 />
 
             <div className="block pb-50 app-block-intro">
-                <div className="container text-center">
-                    <h1 className="block-title app-myphone-brand">Be independent.</h1>
-                    <p className="lead">In every job that must be done, there is an element of fun.</p>
-                    <img src="../assets/img/beavr-masthead-figures.png" />
+                <div className="container text-center app-beavr-masthead">
+                    <h1 className="masthead-title">
+                        <span className="text-primary">Hi, we're Beavr.</span><br />
+                        Smart, simple<br />
+                        job-search.
+                    </h1>
                 </div>
             </div>
 
             <div className="block block-lg pt-30 app-block-stats">
                 <div className="container">
-                    <h1 className="block-title pb-50 text-center">Showcase your inner beast</h1>
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-center">
                             <img src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
@@ -39,6 +40,7 @@ export default React.createClass({
                         </div>
                         <div className="col-md-5 col-sm-6 text-xs-center text-sm-left">
                             <div className="row m-y-md">
+                                <h1 className="block-title pb-50 mt-0 pt-0 text-center">Showcase your inner beast</h1>
                                 <div className="col-xs-6">
                                     <div className="statcard">
                                         <h2 className="statcard-number block-title">Create</h2>

@@ -1,7 +1,9 @@
 // Transparent navbar
 .navbar-transparent {
   background-color: @navbar-transparent-bg;
-  border-color: @navbar-transparent-border;
+  border: 0px;
+  padding-bottom: 5px !important;
+  border-bottom: 1px solid lighten(@brand-primary, 25%);
 
   .navbar-brand {
     color: @navbar-transparent-brand-color;
@@ -20,6 +22,7 @@
     .signup {
         border-radius: 13px;
         background: lighten(@brand-primary, 27%);
+        color: @brand-primary;
         &:hover {
           background-color: lighten(@brand-primary, 20%);
       }
@@ -27,7 +30,7 @@
     > li > a {
       margin-top: 3px;
       font-size: @navbar-transparent-font-size;
-      color: @navbar-transparent-link-color;
+      color: black;
 
       &:hover,
       &:focus {

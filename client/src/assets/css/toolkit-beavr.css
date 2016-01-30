@@ -8363,7 +8363,9 @@ h1.block-title {
 }
 .navbar-transparent {
   background-color: transparent;
-  border-color: transparent;
+  border: 0px;
+  padding-bottom: 5px !important;
+  border-bottom: 1px solid #ffd9d9;
 }
 .navbar-transparent .navbar-brand {
   color: #ff5a59;
@@ -8379,6 +8381,7 @@ h1.block-title {
 .navbar-transparent .navbar-nav .signup {
   border-radius: 13px;
   background: #ffe3e3;
+  color: #ff5a59;
 }
 .navbar-transparent .navbar-nav .signup:hover {
   background-color: #ffbfbf;
@@ -8386,7 +8389,7 @@ h1.block-title {
 .navbar-transparent .navbar-nav > li > a {
   margin-top: 3px;
   font-size: 20px;
-  color: #ff5a59;
+  color: black;
 }
 .navbar-transparent .navbar-nav > li > a:hover,
 .navbar-transparent .navbar-nav > li > a:focus {
