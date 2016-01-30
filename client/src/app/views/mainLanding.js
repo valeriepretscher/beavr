@@ -148,6 +148,7 @@ export default React.createClass({
                                 the possibilities are endless!</h2>
                             <p>(and if you ever need to make more cash, we can help you out!)</p>
                             <hr />
+                            <hr />
                             <button className="btn btn-primary btn-xl text-center ">Get started</button>
                         </div>
                         <div className="col-md-6 col-sm-6 text-right">
