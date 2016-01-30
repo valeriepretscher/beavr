@@ -7,8 +7,8 @@
 // fonts
 @bariol-regular-font-path: "../fonts/bariol-regular/";
 @bariol-regular-font-name: "bariol_regular-webfont";
-@lato-regular-font-path: "../fonts/lato/";
-@lato-regular-font-name: "lato-regular";
+@lato-light-font-path: "../fonts/lato/";
+@lato-light-font-name: "lato-light";
 
 // Gray colors
 @gray-base:    #000;
@@ -40,11 +40,11 @@
 
 @font-face {
   font-family: 'lato_regular';
-  src: url('@{lato-regular-font-path}@{lato-regular-font-name}.eot');
-  src: url('@{lato-regular-font-path}@{lato-regular-font-name}.eot?#iefix') format('embedded-opentype'),
-       url('@{lato-regular-font-path}@{lato-regular-font-name}.woff') format('woff'),
-       url('@{lato-regular-font-path}@{lato-regular-font-name}.ttf') format('truetype'),
-       url('@{lato-regular-font-path}@{lato-regular-font-name}.svg') format('svg');
+  src: url('@{lato-light-font-path}@{lato-light-font-name}.eot');
+  src: url('@{lato-light-font-path}@{lato-light-font-name}.eot?#iefix') format('embedded-opentype'),
+       url('@{lato-light-font-path}@{lato-light-font-name}.woff') format('woff'),
+       url('@{lato-light-font-path}@{lato-light-font-name}.ttf') format('truetype'),
+       url('@{lato-light-font-path}@{lato-light-font-name}.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -63,7 +63,7 @@
 
 
 // Typography
-@font-family-sans-serif: "bariol_regularregular", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-sans-serif: "bariol_regularregular", "lato_regular", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:      "Lora", Georgia, "Times New Roman", Times, serif;
 @font-weight-base:       300;
 @line-height-base:       1.6;
@@ -75,6 +75,8 @@
 @headings-line-height: 1.2;
 @headings-small-color: inherit;
 
+// Lato for plain stuff
+@sans-serif-plain-font-family:    "lato_regular", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // For .lead
 @lead-font-size:      floor((@font-size-base * 1.15));

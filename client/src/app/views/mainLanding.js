@@ -46,6 +46,12 @@ export default React.createClass({
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">Showcase your inner beast</h1>
+                            <h3 className="lead pr-50">
+                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
+                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
+                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
+                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                            </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
                             <img src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
@@ -57,11 +63,17 @@ export default React.createClass({
             <div className="block block-lg app-block-race-car">
                 <div className="container">
                     <div className="row">
-                        <div className="hidden-xs col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="hidden-xs col-md-6 col-sm-6 text-xs-center text-sm-left">
                             <img src="../assets/img/seeker-race-car.png" data-transition="entrance" />
                         </div>
-                        <div className="col-md-5 col-sm-6 pull-right">
+                        <div className="col-md-6 col-sm-6 pull-right">
                              <h1 className="block-title">This is an awesome header</h1>
+                            <h3 className="lead">
+                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
+                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
+                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
+                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -72,6 +84,12 @@ export default React.createClass({
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">Showcase your inner beast</h1>
+                            <h3 className="lead pr-50">
+                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
+                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
+                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
+                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                            </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
                             <img src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
@@ -88,6 +106,12 @@ export default React.createClass({
                         </div>
                         <div className="col-md-5 col-sm-6 pull-right">
                              <h1 className="block-title">Start earning money with jobs you love</h1>
+                            <h3 className="lead">
+                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
+                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
+                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
+                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                            </h3>
                         </div>
                     </div>
                 </div>
@@ -96,8 +120,14 @@ export default React.createClass({
             <div className="block block-lg app-block-truck">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
                             <h1 className="block-title">Showcase your inner beast</h1>
+                            <h3 className="lead pr-50">
+                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
+                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
+                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
+                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                            </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
                             <img src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
@@ -114,7 +144,7 @@ export default React.createClass({
                             <hr />
                             <h1 className="block-title">Enjoy life!</h1>
                             <hr />
-                            <h2>Travel the world, buy a laser sowrd, get your own place, fly to the moon, acquire a hover board...
+                            <h2>Travel the world, buy a laser sword, get your own place, fly to the moon, acquire a hover board...
                                 the possibilities are endless!</h2>
                             <p>(and if you ever need to make more cash, we can help you out!)</p>
                             <hr />
