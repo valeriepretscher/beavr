@@ -5,8 +5,8 @@ node_env: production
 website_url: "http://beavr.com"
 mail_service: "Mailgun"
 mail_from: "hello@beavr.com"
-mail_user: "postmaster@beavr.com"
-mail_password: "key-7313789d07734fe16e7eceb7ed9f40da"
+mail_user: "postmaster@mail.beavr.com"
+mail_password: "8e83842a8c05a3cc05715b7a626d2e8b"
 facebook_client_id: 1643377549276547
 facebook_client_secret: 1da6597bec02ca41f3950641c6e965a2
 http_port: 80
