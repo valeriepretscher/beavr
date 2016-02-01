@@ -12,16 +12,16 @@ http_port: 80
 
 mail_signature: "The Beavr Team"
 
-db_name:
-db_user:
-db_password:
+db_name: "beavr"
+db_user: "dbusr"
+db_password: "dbpwd"
 
-mail_service:
-mail_from:
-mail_user:
-mail_password:
+mail_service: "Mailgun"
+mail_from: "hello@beavr.com"
+mail_user: "postmaster@mail.beavr.com"
+mail_password: "8e83842a8c05a3cc05715b7a626d2e8b"
 
-facebook_client_id:
-facebook_client_secret:
+facebook_client_id: 1643377549276547
+facebook_client_secret: 1da6597bec02ca41f3950641c6e965a2
 
-google_analytics:
+google_analytics: UA-73183713-1
