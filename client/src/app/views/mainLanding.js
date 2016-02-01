@@ -47,10 +47,10 @@ export default React.createClass({
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">Showcase your inner beast</h1>
                             <h3 className="lead pr-50">
-                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
-                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
-                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
-                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                                Create your personal profile with all the things
+                                your future employer would love to know about you.  Showcase
+                                what you’ve really got to companies that you would love to work
+                                for.
                             </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
@@ -67,32 +67,31 @@ export default React.createClass({
                             <img src="../assets/img/seeker-race-car.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-6 col-sm-6 pull-right">
-                             <h1 className="block-title">This is an awesome header</h1>
+                             <h1 className="block-title">Applications &mdash; fast &amp; easy</h1>
                             <h3 className="lead">
-                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
-                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
-                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
-                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                                Discover unique job opportunities wherever you are,
+                                whenever you want. and find the job that really fits to
+                                you. Apply with 1 tap. No CV or cover letter required. It's
+                                never been this easy to get ahead.
                             </h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="block block-lg app-block-profile">
+            <div className="block block-lg app-block-truck">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <h1 className="block-title">Showcase your inner beast</h1>
+                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
+                            <h1 className="block-title">In every job that must be done, there is an element of fun</h1>
                             <h3 className="lead pr-50">
-                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
-                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
-                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
-                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                                Witth Beaver you're independent. Forget about boring job
+                                platforms, discover your strengths and become a
+                                BeavrPro.
                             </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
-                            <img src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
+                            <img src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -105,36 +104,18 @@ export default React.createClass({
                             <img src="../assets/img/seeker-chat.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-5 col-sm-6 pull-right">
-                             <h1 className="block-title">Start earning money with jobs you love</h1>
+                             <h1 className="block-title">Seamless communication</h1>
                             <h3 className="lead">
-                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
-                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
-                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
-                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
+                                Forget about emails. Get your conersation going in
+                                seconds. via the Bevar Messenger and clarify any
+                                open questions. You deserve an answer. Always hear
+                                back in 24 hours.
                             </h3>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="block block-lg app-block-truck">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
-                            <h1 className="block-title">Showcase your inner beast</h1>
-                            <h3 className="lead pr-50">
-                               Bacon ipsum dolor amet biltong pancetta boudin fatback prosciutto pig. Ball tip turkey
-                               ground round beef, t-bone jowl shank pork tongue bresaola short loin tri-tip. Tri-tip
-                               kielbasa pork loin beef, andouille porchetta salami fatback pork chop. Kielbasa
-                               tenderloin corned beef, andouille prosciutto pastrami salami doner ham.
-                            </h3>
-                        </div>
-                        <div className="col-md-5 col-sm-6 text-right">
-                            <img src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div className="block block-lg app-block-giraffe pt-30 pb-50 full-width">
                 <div className="container">
@@ -144,9 +125,9 @@ export default React.createClass({
                             <hr />
                             <h1 className="block-title">Enjoy life!</h1>
                             <hr />
-                            <h2>Travel the world, buy a laser sword, get your own place, fly to the moon, acquire a hover board...
+                            <h2>Complete your bucket list. Travel the world. Buy a laser sword. Get your own place. Fly to the moon. Acquire a hover board...
                                 the possibilities are endless!</h2>
-                            <p>(and if you ever need to make more cash, we can help you out!)</p>
+                            <p>(Hang loose, we got you covered.)</p>
                             <hr />
                             <hr />
                             <button className="btn btn-primary btn-xl text-center ">Get started</button>
