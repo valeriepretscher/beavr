@@ -50,25 +50,37 @@
 <!-- application container -->
 <div id="application">
     <style type="text/css">
-        #initializing {
-            position: absolute;
+        .spinner {
+          width: 40px;
+          height: 40px;
+          margin: 100px auto;
+          background-color: #333;
 
-            top: 50%;
-            left: 50%;
-            height: 30%;
-            width: 50%;
-            margin: -10% 0 0 -10%;
+          border-radius: 100%;
+          -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+          animation: sk-scaleout 1.0s infinite ease-in-out;
         }
 
-        #initializing i {
+        @-webkit-keyframes sk-scaleout {
+          0% { -webkit-transform: scale(0) }
+          100% {
+            -webkit-transform: scale(1.0);
+            opacity: 0;
+          }
+        }
 
-            font-size: 15em;
-            color: silver;
+        @keyframes sk-scaleout {
+          0% {
+            -webkit-transform: scale(0);
+            transform: scale(0);
+          } 100% {
+            -webkit-transform: scale(1.0);
+            transform: scale(1.0);
+            opacity: 0;
+          }
         }
     </style>
-    <div id="initializing">
-        <i class="fa fa-cog fa-spin"></i>
-    </div>
+    <div class="spinner"></div>
 </div>
 
 <!--The application-->
