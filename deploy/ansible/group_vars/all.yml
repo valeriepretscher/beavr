@@ -1,20 +1,22 @@
-app_name: starhackit
-title: StarHackIt
-description: StarHackIt is a fullstack boilerplate written in es6/es7
+app_name: beavr.com
+title: Beavr
+description: In every job that must be done, there is an element of fun.
 
-git_repo: https://github.com/FredericHeem/starhackit.git
+git_repo: https://github.com/beavr/beavr.git
 git_version: master
 
 api_dir: '{{home}}/{{app_name}}'
 api_port: 9000
 
-mail_signature: "The StarHackIt Team"
+http_port: 80
+
+mail_signature: "The Beavr Team"
 
 db_name:
 db_user:
 db_password:
 
-mail_service: "Mailgun"
+mail_service:
 mail_from:
 mail_user:
 mail_password:
