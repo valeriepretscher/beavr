@@ -9,6 +9,7 @@ import Account from 'views/account';
 import Application from 'views/application';
 import Logout from 'views/logout';
 import MainLanding from 'views/mainLanding';
+import ChooseUserType from 'views/chooseUserType';
 import EmployerLanding from 'views/employerLanding';
 import UserProfile from 'views/userProfile';
 import RegistrationComplete from 'views/registrationComplete';
@@ -24,6 +25,7 @@ let routes = (
         <Route component={EmployerLanding} path="employers"/>
 
         <Route component={Login} path="login"/>
+        <Route component={ChooseUserType} path="choose-user-type"/>
         <Route component={Signup} path="signup"/>
         <Route component={Logout} path="logout"/>
         <Route component={Forgot} path="forgot"/>

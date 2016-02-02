@@ -25,10 +25,11 @@ export default React.createClass({
                 <div className="container text-center app-beavr-masthead">
                     <h1 className="masthead-title">
                         <span className="text-primary">Hi, we're Beavr.</span><br />
-                        Smart, simple<br />
-                        job-search.
+                        We help you find your perfect <br /> short term employees.
                     </h1>
-                    <button className="btn btn-primary mt-30 btn-xl text-center m-5">Get started</button>
+                    <a href="https://beavr.typeform.com/to/n7Yjw8">
+                        <button className="btn btn-primary btn-xl mt-30 text-center ">Get started</button>
+                    </a>
 
                     <div className="masthead-scroll-arrow hidden-xs">
                         <span>
@@ -117,7 +118,9 @@ export default React.createClass({
                             </h2>
                             <hr />
                             <hr />
-                            <button className="btn btn-primary btn-xl text-center ">Get started</button>
+                            <a href="https://beavr.typeform.com/to/n7Yjw8">
+                                <button className="btn btn-primary btn-xl text-center ">Get started</button>
+                            </a>
                         </div>
                     </div>
                 </div>

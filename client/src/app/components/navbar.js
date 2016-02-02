@@ -47,8 +47,7 @@ export default React.createClass( {
             <ul className="nav navbar-nav navbar-right">
                 <NavLink to="/">Seekers</NavLink>
                 <NavLink to="/employers">Employers</NavLink>
-                <NavLink to="/login">Login</NavLink>
-                <NavLink to="/signup" className="signup">Signup</NavLink>
+                <NavLink to="/choose-user-type" className="signup">Signup</NavLink>
             </ul>
         );
     },
