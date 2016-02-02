@@ -14,7 +14,7 @@ export default React.createClass({
                     <div className="row">
                       <div className="col-sm-2 m-b">
                         <ul className="list-unstyled list-spaced">
-                          <li><h6 className="text-uppercase text-primary">Get in Touch</h6></li>
+                          <li><h6 className="text-uppercase text-primary">Sign Up</h6></li>
                           <li>
                               <a href="https://beavr.typeform.com/to/uL8a0G">
                                 Job-Seekers

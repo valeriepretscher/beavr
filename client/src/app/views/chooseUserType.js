@@ -28,8 +28,12 @@ export default React.createClass({
                         How can we make <br />
                         your day today?
                     </h1>
-                    <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect job</button>
-                    <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect Pro</button>
+                    <a href="https://beavr.typeform.com/to/uL8a0G">
+                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect job</button>
+                    </a>
+                    <a href="https://beavr.typeform.com/to/n7Yjw8">
+                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect Pro</button>
+                    </a>
                 </div>
             </div>
 
