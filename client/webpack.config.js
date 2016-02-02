@@ -22,7 +22,6 @@ module.exports = function ( options ) {
                 'jquery',
                 'lib/animatedModal.js',
                 'lib/growl.js',
-                'bootstrap-markdown/js/bootstrap-markdown',
                 'load-script',
                 'lodash',
                 'marked',
