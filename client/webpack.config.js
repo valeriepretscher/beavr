@@ -93,7 +93,8 @@ module.exports = function ( options ) {
                 {
                     test: /\.jpg|\.png|\.mp3/,
                     loader: 'file-loader'
-                }
+                },
+                { test: /\.json$/, loader: "json-loader" }
 
             ]
         },
