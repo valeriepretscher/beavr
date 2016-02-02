@@ -19,7 +19,7 @@ import MyProfile from 'views/myProfile';
 import UsersView from 'parts/admin/usersView';
 
 let routes = (
-    <Route component={Application} name="home" path="/">
+    <Route component={Application} name="home" path="/" >
         <IndexRoute component={MainLanding}/>
 
         <Route component={EmployerLanding} path="employers"/>

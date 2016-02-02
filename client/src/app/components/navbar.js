@@ -10,7 +10,8 @@ export default React.createClass( {
 
     mixins: [
         History,
-        Reflux.connect( authStore, 'user' )
+        Reflux.connect( authStore, 'user' ),
+        require('react-intl').IntlMixin
     ],
 
     render() {
@@ -45,12 +46,12 @@ export default React.createClass( {
     renderGuestNavigation() {
         return (
             <ul className="nav navbar-nav navbar-right">
-                <NavLink to="/">Seekers</NavLink>
-                <NavLink to="/employers">Employers</NavLink>
-                <NavLink to="/choose-user-type" className="signup">Signup</NavLink>
-            </ul>
-        );
-    },
+               <NavLink to="/">{ this.getIntlMessage("navbar.job-seekers") }</NavLink>
+               <NavLink to="/employers">{ this.getIntlMessage("navbar.employers") }</NavLink>
+               <NavLink to="/choose-user-type" className="signup">{ this.getIntlMessage("navbar.signup") }</NavLink>
+           </ul>
+       );
+   },
 
     renderUserNavigation() {
         return (

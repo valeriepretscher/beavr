@@ -9,7 +9,8 @@ import Footer from 'components/footer';
 export default React.createClass( {
 
     mixins: [
-        Reflux.connect( analyticsStore )
+        Reflux.connect( analyticsStore ),
+        require('react-intl').IntlMixin
     ],
 
     render() {
