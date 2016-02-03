@@ -8,6 +8,9 @@ import ReactDOM from 'react-dom';
 import { Router } from 'react-router';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 
+// @TODO: This should only be loaded when needed - e.g. for Safari
+import Intl from 'intl'
+
 import routes from './routes';
 import messages from './messages';
 import Debug from 'debug';

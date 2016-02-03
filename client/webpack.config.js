@@ -19,6 +19,7 @@ module.exports = function ( options ) {
                 'classnames',
                 'debug',
                 'events',
+                'intl',
                 'jquery',
                 'lib/animatedModal.js',
                 'lib/growl.js',
