@@ -140,13 +140,9 @@ export default React.createClass({
                             <h1 className="block-title">Join our Beavr Pool!</h1>
                             <hr />
                             <h2>
-                                We are currently building up apool of motivated
-                                employees that are eager to work. Areyou looking
-                                for great short term staff atthe mainLandingoment?If yes
-                                submit your request now and we will already match
-                                you with suitable employees before we launch.
-                                Start taking advantage of your daily growing pool of
-                                employees today!
+                                We are working closely with comapanies in Vienna, Berlin, Munich and Warsaw to get
+                                you the best short term jobs. Join the the Beavr Pool and set up your account right now.
+                                Takes only a minute. Promise.
                             </h2>
                             <hr />
                             <a href="https://beavr.typeform.com/to/uL8a0G">
