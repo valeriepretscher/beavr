@@ -105,8 +105,8 @@ export default React.createClass({
                                 { this.getIntlMessage("mainLanding.seamless-communication-text") }
                             </h3>
                         </div>
-                        <div className="col-md-6 col-lg-pull-7 col-sm-6 text-xs-center text-sm-right">
-                            <img className="img-responsive pull-right reset-margin-xs"src="../assets/img/seeker-chat.png" data-transition="entrance" />
+                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-right">
+                            <img className="img-responsive pull-left reset-margins-xs" src="../assets/img/seeker-chat.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -115,14 +115,14 @@ export default React.createClass({
             <div className="block block-lg app-block-giraffe">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.enjoy-life") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.enjoy-life-text") }
                             </h3>
                         </div>
-                        <div className="col-md-5 col-sm-6 text-right">
-                            <img className="img-responsive reset-margin-xs" src="../assets/img/seeker-giraffe.png" data-transition="entrance" />
+                        <div className="col-md-6 col-sm-6">
+                            <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/seeker-giraffe.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ export default React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-6 text-right">
-                            <img className="img-responsive" src="../assets/img/beavr-pool.png" data-transition="entrance" />
+                            <img className="img-responsive hidden-xs pull-left reset-margins-xs" src="../assets/img/beavr-pool.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-6 pl-50 col-sm-6 text-center">
                             <hr />

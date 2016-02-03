@@ -52,14 +52,14 @@ export default React.createClass({
             <div className="block block-lg app-block-profile">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.stop-cv-nightmare") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.stop-cv-nightmare-text") }
                             </h3>
                         </div>
-                        <div className="col-md-5 col-sm-6 text-right">
-                            <img src="../assets/img/employer-drowning.png" data-transition="entrance" />
+                        <div className="col-md-6 col-sm-6 text-right">
+                            <img className="img-responsive reset-margins-xs pull-right" src="../assets/img/employer-drowning.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -68,14 +68,14 @@ export default React.createClass({
             <div className="block block-lg app-block-chat">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <img src="../assets/img/employer-desk.png" data-transition="entrance" />
-                        </div>
-                        <div className="col-md-5 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.everything-in-one-place") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.everything-in-one-place-text") }
                             </h3>
+                        </div>
+                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
+                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/employer-desk.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -84,14 +84,14 @@ export default React.createClass({
             <div className="block block-lg app-block-employer-picker">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.pick-the-one") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.pick-the-one-text") }
                             </h3>
                         </div>
-                        <div className="col-md-5 col-sm-6 text-right">
-                            <img src="../assets/img/employer-picker.png" data-transition="entrance" />
+                        <div className="col-md-6 col-sm-6 text-right">
+                            <img className="img-responsive reset-margins-xs pull-right" src="../assets/img/employer-picker.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@ export default React.createClass({
                 <div className="container">
                     <div className="row pb-30 pt-30">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <img src="../assets/img/employer-piggy-bank.png" data-transition="entrance" />
+                            <img className="img-responsive pull-left reset-margins-xs mb-30" src="../assets/img/employer-piggy-bank.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-5 col-sm-6 text-center">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.save-time-and-money") }</h1>

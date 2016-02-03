@@ -350,8 +350,8 @@ body {
   margin-top: -120px;
 }
 .app-block-giraffe img {
-  width: 350px;
-  margin-top: -190px;
+  width: 400px;
+  margin-top: -120px;
 }
 @media (max-width: 768px) {
   .reset-margins-xs {
