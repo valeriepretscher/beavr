@@ -134,7 +134,7 @@ export default React.createClass({
                         <div className="col-md-6 col-sm-6 text-right">
                             <img className="img-responsive hidden-xs pull-left reset-margins-xs" src="../assets/img/beavr-pool.png" data-transition="entrance" />
                         </div>
-                        <div className="col-md-6 pl-50 col-sm-6 text-center">
+                        <div className="col-md-6 col-sm-6 text-center">
                             <hr />
                             <hr />
                             <h1 className="block-title">Join our Beavr Pool!</h1>
