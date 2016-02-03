@@ -285,11 +285,11 @@ body {
 .app-block-profile img,
 .app-block-truck img,
 .app-block-chat img {
-  width:400px;
+  width: 400px;
 }
 .app-block-pool img {
-    margin-top: 100px;
-    width: 500px;
+  margin-top: 100px;
+  width: 500px;
 }
 .app-block-race-car img {
   width: 470px;
@@ -298,15 +298,17 @@ body {
   width: 470px;
   margin-top: -70px;
 }
-
 .app-block-giraffe img {
-  width:350px;
+  width: 350px;
   margin-top: -120px;
 }
 @media (max-width: 480px) {
   .app-block-game-img {
     transform: scale(1.5) !important;
   }
+}
+.app-block-profile hr {
+  width: calc(80% + 60px);
 }
 @media (min-width: 768px) {
   .app-block-racecar-img {
