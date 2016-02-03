@@ -128,7 +128,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-pool pt-30 pb-50 full-width">
+            <div id="#signup" className="block block-lg app-block-pool pt-30 pb-50 full-width">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-6 text-right">

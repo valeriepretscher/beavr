@@ -97,7 +97,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-piggy-bank full-width">
+            <div id="#signup" className="block block-lg app-block-piggy-bank full-width">
                 <div className="container">
                     <div className="row pb-30 pt-30">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">

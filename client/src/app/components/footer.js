@@ -2,6 +2,10 @@ import React from 'react';
 
 export default React.createClass({
 
+    mixins: [
+        require('react-intl').IntlMixin
+    ],
+
     shouldComponentUpdate() {
         return false;
     },
@@ -14,27 +18,27 @@ export default React.createClass({
                     <div className="row">
                       <div className="col-sm-2 m-b">
                         <ul className="list-unstyled list-spaced">
-                          <li><h6 className="text-uppercase text-primary">Sign Up</h6></li>
+                          <li><h6 className="text-uppercase text-primary">{ this.getIntlMessage("footer.heading-signup") }</h6></li>
                           <li>
                               <a href="https://beavr.typeform.com/to/uL8a0G">
-                                Job-Seekers
+                                { this.getIntlMessage("footer.job-seekers") }
                             </a>
                           </li>
                           <li>
                             <a href="https://beavr.typeform.com/to/n7Yjw8">
-                               Employers
+                                { this.getIntlMessage("footer.employers") }
                             </a>
                           </li>
                           <li>
                             <a href="mailto:hello@beavr.com">
-                                Press
+                                { this.getIntlMessage("footer.press") }
                             </a>
                           </li>
                         </ul>
                       </div>
                       <div className="col-sm-2 m-b">
                         <ul className="list-unstyled list-spaced">
-                          <li><h6 className="text-uppercase text-primary">Get in Touch</h6></li>
+                          <li><h6 className="text-uppercase text-primary">{ this.getIntlMessage("footer.heading-contact") }</h6></li>
                           <li>
                               AT
                                 <a href="tel:+436769383522"> +43 676 9383522</a>
@@ -52,7 +56,7 @@ export default React.createClass({
                       </div>
                       <div className="col-sm-2 m-b">
                         <ul className="list-unstyled list-spaced">
-                          <li><h6 className="text-uppercase text-primary">Follow Us</h6></li>
+                          <li><h6 className="text-uppercase text-primary">{ this.getIntlMessage("footer.heading-follow") }</h6></li>
                           <li>
                             <a href="https://facebook.com/busybeavr">
                                 Facebook
@@ -71,12 +75,12 @@ export default React.createClass({
                         </ul>
                       </div>
                       <div className="col-sm-6">
-                        <h6 className="text-uppercase text-primary">About</h6>
+                        <h6 className="text-uppercase text-primary">{ this.getIntlMessage("footer.heading-about") }</h6>
                         <p>
-                            Call us crazy, but we believe that there is a smarter way to match young enthusiastic job seekers with employers that are in need of qualified and reliable staff. Our mission is to build the fastest short-term job application platform, providing jobseekers with a simple and efficient solution to make extra cash as well as employers with the data and tools they need to hire qualified applicants faster.
+                            { this.getIntlMessage("footer.about-text-1") }
                         </p>
                         <p>
-                            The “On Demand Economy” is changing every aspect of our daily lives by faster and more efficient solutions. However, the world of job recruitment is still driven by paper applications, oldschool job boards, unstructured CV's, endless emails or tiring motivation letters. It's time to change that.
+                            { this.getIntlMessage("footer.about-text-2") }
                         </p>
                       </div>
                     </div>
