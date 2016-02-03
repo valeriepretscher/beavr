@@ -29,12 +29,12 @@ export default React.createClass({
                 <div className="container text-center app-beavr-masthead">
                     <h1 className="masthead-title">
                         <span className="text-primary">{ this.getIntlMessage("employerLanding.masthead-greeting") }</span><br />
-                        { this.getIntlMessage("mainLanding.masthead-claim-1") }
+                        { this.getIntlMessage("employerLanding.masthead-claim-1") }
                         <br />
-                        { this.getIntlMessage("mainLanding.masthead-claim-2") }
+                        { this.getIntlMessage("employerLanding.masthead-claim-2") }
                     </h1>
                     <a href="https://beavr.typeform.com/to/n7Yjw8">
-                        <button className="btn btn-primary btn-xl mt-30 text-center ">Get started</button>
+                        <button className="btn btn-primary btn-xl mt-30 text-center ">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                     </a>
 
                     <div className="masthead-scroll-arrow hidden-xs">

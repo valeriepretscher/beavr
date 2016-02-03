@@ -137,16 +137,14 @@ export default React.createClass({
                         <div className="col-md-6 col-sm-6 text-center">
                             <hr />
                             <hr />
-                            <h1 className="block-title">Join our Beavr Pool!</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.beavr-pool") }</h1>
                             <hr />
                             <h2>
-                                We are working closely with comapanies in Vienna, Berlin, Munich and Warsaw to get
-                                you the best short term jobs. Join the the Beavr Pool and set up your account right now.
-                                Takes only a minute. Promise.
+                                { this.getIntlMessage("mainLanding.beavr-pool-text") }
                             </h2>
                             <hr />
                             <a href="https://beavr.typeform.com/to/uL8a0G">
-                                <button className="btn btn-primary btn-xl text-center m-5">Get started</button>
+                                <button className="btn btn-primary btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>
                         </div>
                     </div>
