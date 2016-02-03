@@ -3,5 +3,46 @@
         "job-seekers": "Job Seekers",
         "employers": "Employers",
         "signup": "Signup"
+    },
+    "footer": {
+        "heading-signup": "Sign Up",
+        "heading-follow": "Follow Us",
+        "heading-contact": "Get in touch",
+        "heading-about": "About",
+        "press": "Press",
+        "job-seekers": "Job Seekers",
+        "employers": "Employers",
+        "about-text-1": "Call us crazy, but we believe that there is a smarter way to match young enthusiastic job seekers with employers that are in need of qualified and reliable staff. Our mission is to build the fastest short-term job application platform, providing jobseekers with a simple and efficient solution to make extra cash as well as employers with the data and tools they need to hire qualified applicants faster.",
+        "about-text-2": "The “On Demand Economy” is changing every aspect of our daily lives by faster and more efficient solutions. However, the world of job recruitment is still driven by paper applications, oldschool job boards, unstructured CV's, endless emails or tiring motivation letters. It's time to change that."
+    },
+    "mainLanding": {
+        "masthead-greeting": "Hi, we're beavr.",
+        "masthead-claim-1": "Your personal assistant for",
+        "masthead-claim-2": "short term jobs.",
+        "button-cta": "Get started",
+        "showcase-your-beast": "Showcase your inner beast",
+        "beast-text": "Create your personal profile with all the things your future employer would love to know about you. Showcase what you’ve really got to companies that you would love to work for.",
+        "applications-fast-easy": "Applications — fast & easy",
+        "applications-text": "Discover unique job opportunities wherever you are, whenever you want. and find the job that really fits to you. Apply with 1 tap. No CV or cover letter required. It's never been this easy to get ahead.",
+        "element-of-fun": "In every job that must be done, there is an element of fun",
+        "element-of-fun-text": "With Beaver you're independent. Forget about boring job platforms, discover your strengths and become a Beavr Pro.",
+        "seamless-communication": "Seamless commnication",
+        "seamless-communication-text": "Forget about emails. Get your conersation going in seconds. via the Bevar Messenger and clarify any open questions. You deserve an answer. Always hear back in 24 hours.",
+        "enjoy-life": "Enloy life!",
+        "enjoy-life-text": "Complete your bucket list. Travel the world. Buy a laser sword. Get your own place. Fly to the moon. Acquire a hover board... the possibilities are endless!",
+        "hang-loose": "(Hang loose, we got you covered.)"
+    },
+    "employerLanding": {
+        "masthead-greeting": "Hi, we're beaver",
+        "masthead-claim": "We help you find your perfect<br />short term employees.",
+        "button-cta": "Get started",
+        "stop-cv-nightmare": "Stop the CV nightmare",
+        "stop-cv-nightmare-text": "No more unstructured CVs and cover letters. View your candidates profile which contains their most important educational and professional experience and enjoa our growing community of Beavr Pros. All the information you need at a glance. (Take that, email clutter!)",
+        "everything-in-one-place": "Everything in one place",
+        "everything-in-one-place-text": "Create job ads in only a few, easy steps and recieve applications within the next couple of hours. Manage all your candidates and your personal pool of BeavrPros in one place.",
+        "pick-the-one": "Pick the one that really fits you",
+        "pick-the-one-text": "Sort and filter your candidates faster and more efficiently than ever before. Find employees that really fit your company. Any questions for your applicants ? Communicate directly on Beavr and clarify the the last details.",
+        "save-time-and-money": "Save time and money",
+        "save-time-and-money-text": "Beavr is 100% risk free.Pay only for what you really get and save some of your valuable time with your brand new end-to recruiting system."
     }
 }

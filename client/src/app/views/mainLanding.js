@@ -8,6 +8,10 @@ let debug = new Debug("views:main");
 
 export default React.createClass({
 
+    mixins: [
+        require('react-intl').IntlMixin
+    ],
+
     componentDidMount() {
         debug("componentDidMount");
     },
@@ -24,12 +28,13 @@ export default React.createClass({
             <div className="block pb-50 app-block-intro">
                 <div className="container text-center app-beavr-masthead">
                     <h1 className="masthead-title">
-                        <span className="text-primary">Hi, we're Beavr.</span><br />
-                        Your personal assistant for <br />
-                        short term jobs.
+                        <span className="text-primary">{ this.getIntlMessage("mainLanding.masthead-greeting") }</span><br />
+                        { this.getIntlMessage("mainLanding.masthead-claim-1") }
+                        <br />
+                        { this.getIntlMessage("mainLanding.masthead-claim-2") }
                     </h1>
                     <a href="https://beavr.typeform.com/to/uL8a0G">
-                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">Get started</button>
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                     </a>
 
                     <div className="masthead-scroll-arrow hidden-xs">
@@ -47,12 +52,9 @@ export default React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <h1 className="block-title">Showcase your inner beast</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.showcase-your-beast") }</h1>
                             <h3 className="lead pr-50">
-                                Create your personal profile with all the things
-                                your future employer would love to know about you.  Showcase
-                                what you’ve really got to companies that you would love to work
-                                for.
+                                { this.getIntlMessage("mainLanding.beast-text") }
                             </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
@@ -69,12 +71,9 @@ export default React.createClass({
                             <img src="../assets/img/seeker-race-car.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-6 col-sm-6 pull-right">
-                             <h1 className="block-title">Applications &mdash; fast &amp; easy</h1>
+                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.applications-fast-easy") }</h1>
                             <h3 className="lead">
-                                Discover unique job opportunities wherever you are,
-                                whenever you want. and find the job that really fits to
-                                you. Apply with 1 tap. No CV or cover letter required. It's
-                                never been this easy to get ahead.
+                                { this.getIntlMessage("mainLanding.applications-text") }
                             </h3>
                         </div>
                     </div>
@@ -85,11 +84,9 @@ export default React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
-                            <h1 className="block-title">In every job that must be done, there is an element of fun</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.element-of-fun") }</h1>
                             <h3 className="lead pr-50">
-                                Witth Beaver you're independent. Forget about boring job
-                                platforms, discover your strengths and become a
-                                BeavrPro.
+                                { this.getIntlMessage("mainLanding.element-of-fun-text") }
                             </h3>
                         </div>
                         <div className="col-md-5 col-sm-6 text-right">
@@ -106,12 +103,9 @@ export default React.createClass({
                             <img src="../assets/img/seeker-chat.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-5 col-sm-6 pull-right">
-                             <h1 className="block-title">Seamless communication</h1>
+                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.seamless-communication") }</h1>
                             <h3 className="lead">
-                                Forget about emails. Get your conersation going in
-                                seconds. via the Bevar Messenger and clarify any
-                                open questions. You deserve an answer. Always hear
-                                back in 24 hours.
+                                { this.getIntlMessage("mainLanding.seamless-communication-text") }
                             </h3>
                         </div>
                     </div>
@@ -125,11 +119,10 @@ export default React.createClass({
                         <div className="col-md-6 pl-50 pr-50 col-sm-6 text-center">
                             <hr />
                             <hr />
-                            <h1 className="block-title">Enjoy life!</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.enjoy-life") }</h1>
                             <hr />
-                            <h2>Complete your bucket list. Travel the world. Buy a laser sword. Get your own place. Fly to the moon. Acquire a hover board...
-                                the possibilities are endless!</h2>
-                            <p>(Hang loose, we got you covered.)</p>
+                            <h2>{ this.getIntlMessage("mainLanding.enjoy-life-text") }</h2>
+                            <p>{ this.getIntlMessage("mainLanding.hang-loose") }</p>
                             <hr />
                             <hr />
                             <a href="https://beavr.typeform.com/to/uL8a0G">
