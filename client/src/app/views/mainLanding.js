@@ -112,25 +112,46 @@ export default React.createClass({
                 </div>
             </div>
 
-
-            <div className="block block-lg app-block-giraffe pt-30 pb-50 full-width">
+            <div className="block block-lg app-block-giraffe">
                 <div className="container">
                     <div className="row">
+                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.enjoy-life") }</h1>
+                            <h3 className="lead pr-50">
+                                { this.getIntlMessage("mainLanding.enjoy-life-text") }
+                            </h3>
+                        </div>
+                        <div className="col-md-5 col-sm-6 text-right">
+                            <img src="../assets/img/seeker-giraffe.png" data-transition="entrance" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="block block-lg app-block-pool pt-30 pb-50 full-width">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-6 text-right">
+                            <img src="../assets/img/beavr-pool.png" data-transition="entrance" />
+                        </div>
                         <div className="col-md-6 pl-50 pr-50 col-sm-6 text-center">
                             <hr />
                             <hr />
-                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.enjoy-life") }</h1>
+                            <h1 className="block-title">Join our Beavr Pool!</h1>
                             <hr />
-                            <h2>{ this.getIntlMessage("mainLanding.enjoy-life-text") }</h2>
-                            <p>{ this.getIntlMessage("mainLanding.hang-loose") }</p>
-                            <hr />
+                            <h2>
+                                We are currently building up apool of motivated
+                                employees that are eager to work. Areyou looking
+                                for great short term staff atthe mainLandingoment?If yes
+                                submit your request now and we will already match
+                                you with suitable employees before we launch.
+                                Start taking advantage of your daily growing pool of
+                                employees today!
+                            </h2>
                             <hr />
                             <a href="https://beavr.typeform.com/to/uL8a0G">
                                 <button className="btn btn-primary btn-xl text-center m-5">Get started</button>
                             </a>
-                        </div>
-                        <div className="col-md-6 col-sm-6 text-right">
-                            <img src="../assets/img/seeker-giraffe.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>

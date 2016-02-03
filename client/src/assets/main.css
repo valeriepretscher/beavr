@@ -287,6 +287,10 @@ body {
 .app-block-chat img {
   width:400px;
 }
+.app-block-pool img {
+    margin-top: 100px;
+    width: 500px;
+}
 .app-block-race-car img {
   width: 470px;
 }
@@ -296,7 +300,8 @@ body {
 }
 
 .app-block-giraffe img {
-  height: 500px;
+  width:350px;
+  margin-top: -120px;
 }
 @media (max-width: 480px) {
   .app-block-game-img {
