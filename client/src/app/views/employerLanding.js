@@ -81,7 +81,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-truck">
+            <div className="block block-lg app-block-employer-picker">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
