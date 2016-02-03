@@ -49,33 +49,40 @@ body
 
 .app-block-profile img,
 .app-block-truck img,
-.app-block-chat img {
-  width:400px;
-}
-.app-block-pool img {
-    margin-top: 100px;
-    width: 500px;
-}
-.app-block-race-car img {
-  width: 470px;
-}
-.app-block-employer-picker img {
-  width: 470px;
-  margin-top: -70px;
-}
+.app-block-chat img
+.app-block-race-car img
+  width: 400px
+  margin-top: -75px
 
-.app-block-giraffe img {
-  width:350px;
-  margin-top: -120px;
-}
+.app-block-pool img
+    margin-top: 100px
+    width: 500px
+
+.app-block-race-car img
+  width: 470px
+
+.app-block-piggy-bank img
+  width: 420px
+  margin-top: 10px
+
+.app-block-employer-picker img
+  width: 470px
+  margin-top: -120px
+
+
+.app-block-giraffe img
+  width:350px
+  margin-top: -190px
+
+@media (max-width: 768px)
+  .reset-margins-xs
+    margin: 0 !important
+  .reset-padding-xs
+    padding: 0 !important
 
 @media (max-width: 480px)
   .app-block-game-img
     transform scale(1.5) !important
-
-.app-block-profile
-  hr
-    width calc(80% + 60px)
 
 @media (min-width: 768px)
   .app-block-racecar-img

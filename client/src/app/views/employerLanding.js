@@ -54,7 +54,7 @@ export default React.createClass({
                     <div className="row">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.stop-cv-nightmare") }</h1>
-                            <h3 className="lead pr-50">
+                            <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.stop-cv-nightmare-text") }
                             </h3>
                         </div>
@@ -71,7 +71,7 @@ export default React.createClass({
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <img src="../assets/img/employer-desk.png" data-transition="entrance" />
                         </div>
-                        <div className="col-md-5 col-sm-6 pull-right">
+                        <div className="col-md-5 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.everything-in-one-place") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.everything-in-one-place-text") }
@@ -84,9 +84,9 @@ export default React.createClass({
             <div className="block block-lg app-block-employer-picker">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left pr-50">
+                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.pick-the-one") }</h1>
-                            <h3 className="lead pr-50">
+                            <h3 className="lead">
                                 { this.getIntlMessage("employerLanding.pick-the-one-text") }
                             </h3>
                         </div>
@@ -97,7 +97,7 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-chat pt-30 pb-30 full-width">
+            <div className="block block-lg app-block-piggy-bank full-width">
                 <div className="container">
                     <div className="row pb-30 pt-30">
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
