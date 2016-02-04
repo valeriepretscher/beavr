@@ -33,7 +33,7 @@ export default React.createClass({
                         <br />
                         { this.getIntlMessage("mainLanding.masthead-claim-2") }
                     </h1>
-                    <a href="https://beavr.typeform.com/to/uL8a0G">
+                    <a href="/register-employee">
                         <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                     </a>
 
