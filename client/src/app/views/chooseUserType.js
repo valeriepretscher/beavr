@@ -27,17 +27,23 @@ export default React.createClass({
 
             <div className="block pb-50 app-block-intro">
                 <div className="container text-center app-beavr-masthead">
-                    <h1 className="masthead-title">
+                    <h1 className="masthead-title mt-0">
                         <span className="text-primary">{ this.getIntlMessage("chooseUserType.masthead-greeting") }</span><br />
                         { this.getIntlMessage("chooseUserType.masthead-claim-1") }
                         <br />
                         { this.getIntlMessage("chooseUserType.masthead-claim-2") }
                     </h1>
-                    <a href="/register-employee">
-                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
+                    <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
+                        <button className="btn btn-primary m-30 mt-30 btn-lg text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
                     </a>
-                    <a href="/register-employer">
-                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
+                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/uL8a0G">
+                        <button className="btn btn-primary m-30 mt-30 btn-lg text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
+                    </a>
+                    <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
+                        <button className="btn btn-primary m-30 btn-lg text-center m-5 mt-0">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
+                    </a>
+                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
+                        <button className="btn btn-primary m-30 btn-lg text-center m-5 mt-0">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
                     </a>
                 </div>
             </div>
