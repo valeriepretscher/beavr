@@ -33,7 +33,10 @@ export default React.createClass({
                         <br />
                         { this.getIntlMessage("mainLanding.masthead-claim-2") }
                     </h1>
-                    <a href="/register-employee">
+                    <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                    </a>
+                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
                         <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                     </a>
 
@@ -143,8 +146,11 @@ export default React.createClass({
                                 { this.getIntlMessage("mainLanding.beavr-pool-text") }
                             </h2>
                             <hr />
-                            <a href="/register-employee">
-                                <button className="btn btn-primary btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                            <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                            </a>
+                            <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>
                         </div>
                     </div>

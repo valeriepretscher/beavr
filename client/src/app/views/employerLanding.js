@@ -33,8 +33,11 @@ export default React.createClass({
                         <br />
                         { this.getIntlMessage("employerLanding.masthead-claim-2") }
                     </h1>
-                    <a href="/register-employer">
-                        <button className="btn btn-primary btn-xl mt-30 text-center ">{ this.getIntlMessage("employerLanding.button-cta") }</button>
+                    <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                    </a>
+                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                     </a>
 
                     <div className="masthead-scroll-arrow hidden-xs">
@@ -111,8 +114,11 @@ export default React.createClass({
                             </h2>
                             <hr />
                             <hr />
-                            <a href="/register-employer">
-                                <button className="btn btn-primary btn-xl text-center ">{ this.getIntlMessage("employerLanding.button-cta") }</button>
+                            <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                            </a>
+                            <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>
                         </div>
                     </div>
