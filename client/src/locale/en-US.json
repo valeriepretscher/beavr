@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "job-seekers": "Home",
+        "job-seekers": "Find a job",
         "employers": "For business",
         "signup": "Sign up"
     },
@@ -49,5 +49,12 @@
         "save-time-and-money-text": "Beavr is 100% risk free.Pay only for what you really get and save some of your valuable time with your brand new end-to recruiting system.",
         "start-hiring": "Start hiring now!",
         "start-hiring-text": "We are currently building up a pool of motivated employees that are eager to work. Are you looking for great short term staff at the moment? If yes, submit your request now and we will already match you with suitable employees before we launch. Start taking advantage of your daily growing pool of employees today!"
+    },
+    "chooseUserType": {
+        "masthead-greeting": "Hey you.",
+        "masthead-claim-1": "How can we make",
+        "masthead-claim-2": "your day today?",
+        "button-find-job": "Find my perfect job",
+        "button-find-employees": "Find great employees"
     }
 }

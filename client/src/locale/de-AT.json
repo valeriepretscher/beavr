@@ -2,7 +2,7 @@
     "navbar": {
         "job-seekers": "Für Arbeitnehmer",
         "employers": "Für Unternehmen",
-        "signup": "Sign up"
+        "signup": "Registrieren"
     },
     "footer": {
         "heading-signup": "Sign up",
@@ -49,5 +49,12 @@
         "save-time-and-money-text": "Beavr ist zu 100% risikofrei. Du zahlst nur für das, was Du auch wirklich bekommst. Spare Zeit und Geld mit Deiner neuen End-To-End Rekrutierungslösung.",
         "start-hiring": "Sende uns jetzt schon Deine freie Stelle",
         "start-hiring-text": "Wir bauen uns derzeit einen Pool an motivierten Mitarbeitern auf. Hast Du gerade eine freie Stelle? Trage diese ganz einfach hier ein und wir werden jetzt schon beginnen unverbindlich passende Kandidaten für Dich zu finden."
+    },
+    "chooseUserType": {
+        "masthead-greeting": "Hallo.",
+        "masthead-claim-1": "Wie können wir",
+        "masthead-claim-2": "dir heute helfen?",
+        "button-find-job": "Ich suche einen Job",
+        "button-find-employees": "Ich suche großartige Mitarbeiter"
     }
 }

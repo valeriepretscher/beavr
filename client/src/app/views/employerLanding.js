@@ -111,7 +111,7 @@ export default React.createClass({
                             </h2>
                             <hr />
                             <hr />
-                            <a href="https://beavr.typeform.com/to/n7Yjw8">
+                            <a href="/register-employer">
                                 <button className="btn btn-primary btn-xl text-center ">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                             </a>
                         </div>

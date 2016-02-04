@@ -8,6 +8,10 @@ let debug = new Debug("views:main");
 
 export default React.createClass({
 
+    mixins: [
+        require('react-intl').IntlMixin
+    ],
+
     componentDidMount() {
         debug("componentDidMount");
     },
@@ -24,15 +28,16 @@ export default React.createClass({
             <div className="block pb-50 app-block-intro">
                 <div className="container text-center app-beavr-masthead">
                     <h1 className="masthead-title">
-                        <span className="text-primary">Hey you.</span><br />
-                        How can we make <br />
-                        your day today?
+                        <span className="text-primary">{ this.getIntlMessage("chooseUserType.masthead-greeting") }</span><br />
+                        { this.getIntlMessage("chooseUserType.masthead-claim-1") }
+                        <br />
+                        { this.getIntlMessage("chooseUserType.masthead-claim-2") }
                     </h1>
-                    <a href="https://beavr.typeform.com/to/uL8a0G">
-                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect job</button>
+                    <a href="/register-employee">
+                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
                     </a>
-                    <a href="https://beavr.typeform.com/to/n7Yjw8">
-                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">Find my perfect Pro</button>
+                    <a href="/register-employer">
+                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
                     </a>
                 </div>
             </div>
