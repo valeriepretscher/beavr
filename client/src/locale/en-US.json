@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "job-seekers": "Find a job",
+        "job-seekers": "Home",
         "employers": "For business",
         "signup": "Sign up"
     },
@@ -10,7 +10,7 @@
         "heading-contact": "Get in touch",
         "heading-about": "About",
         "press": "Press",
-        "job-seekers": "Job seekers",
+        "job-seekers": "Home",
         "employers": "For business",
         "about-text-1": "Call us crazy, but we believe that there is a smarter way to match young enthusiastic job seekers with employers that are in need of qualified and reliable staff. Our mission is to build the fastest short-term job application platform, providing jobseekers with a simple and efficient solution to make extra cash as well as employers with the data and tools they need to hire qualified applicants faster.",
         "about-text-2": "The “On Demand Economy” is changing every aspect of our daily lives by faster and more efficient solutions. However, the world of job recruitment is still driven by paper applications, oldschool job boards, unstructured CV's, endless emails or tiring motivation letters. It's time to change that."
@@ -19,34 +19,34 @@
         "masthead-greeting": "Hi, we're beavr.",
         "masthead-claim-1": "Your personal assistant",
         "masthead-claim-2": "for short term jobs.",
-        "button-cta": "Get started",
+        "button-cta": "Join the pool",
         "showcase-your-beast": "Showcase your inner beast",
         "beast-text": "Create and fill up your personal profile with all the information your future employer would love to know about you. Showcase what you’ve really got to companies that you would love to work for.",
         "applications-fast-easy": "Applications – super fast & easy",
         "applications-text": "Discover unique job opportunities wherever you are, whenever you want! Find the job that really fits to you. Apply with 1 tap. No CVs or cover letters required. It's never been easier.",
         "seamless-communication": "Seamless communication",
-        "seamless-communication-text": "Forget about emails. Communicate with employers in seconds via the Beavr Messenger and clarify any remaining questions. You deserve an answer. Always hear back within 24 hours.",
+        "seamless-communication-text": "Forget about emails. Communicate with employers in seconds via the beavr messenger and clarify any remaining questions. You deserve an answer. Always hear back within 24 hours.",
         "element-of-fun": "“In every job that must be done there is an element of fun”",
         "element-of-fun-text": "With beavr you're independent. Forget about boring job platforms, discover your strengths and become a beavrPro.",
         "enjoy-life": "Enjoy life!",
         "enjoy-life-text": "Complete your bucket list: Travel the world, buy a laser sword, fly to the moon... the possibilities are endless!",
         "hang-loose": "(Hang loose, we‘ve got you covered)",
-        "beavr-pool": "Jump in the Beavr Pool!",
-        "beavr-pool-text": "We are currently working closely with companies in Vienna, Berlin, Munich and Warsaw to get you the best short term jobs in the future. Join the Beavr Pool today and already receive jobs you’ll love. Takes only a minute. Promise."
+        "beavr-pool": "Jump in the beavr pool!",
+        "beavr-pool-text": "We are currently working closely with companies in Vienna, Berlin, Munich and Warsaw to get you the best short term jobs in the future. Join the the beavr Pool today and already receive jobs you’ll love. Takes only a minute. Promise."
     },
     "employerLanding": {
         "masthead-greeting": "Hi, we're beavr.",
-        "masthead-claim-1": "We help you find your perfect",
-        "masthead-claim-2": "short term employees.",
+        "masthead-claim-1": "We help you find the perfect",
+        "masthead-claim-2": "employees for short term jobs.",
         "button-cta": "Get started",
         "stop-cv-nightmare": "Stop the CV nightmare",
         "stop-cv-nightmare-text": "No more unstructured CVs and cover letters. View your candidate’s profile, which contains their most important educational and professional experience, and enjoy our daily growing pool of beavrs.",
-        "everything-in-one-place": "Everything in one place",
-        "everything-in-one-place-text": "Create job ads in only a few, easy steps and recieve applications within the next couple of hours. Manage all your candidates and your personal pool of BeavrPros in one place.",
+        "everything-in-one-place": "All in one place",
+        "everything-in-one-place-text": "Create job ads in only few, easy steps and receive applications within the next hour. Manage all your candidates and your personal pool of Beavs in one place.",
         "pick-the-one": "Pick the one that really fits you",
-        "pick-the-one-text": "Sort and filter your candidates faster and more efficiently than ever before. Find employees that really fit your company. Any questions for your applicants ? Communicate directly on Beavr and clarify the last details.",
+        "pick-the-one-text": "Sort and filter your candidates faster and more efficient than ever before. Find employees that exceed you expectations. Any questions for your applicants? Communicate directly on beavr and clarify the last details.",
         "save-time-and-money": "Save time and money",
-        "save-time-and-money-text": "Beavr is 100% risk free.Pay only for what you really get and save some of your valuable time with your brand new end-to recruiting system.",
+        "save-time-and-money-text": "beavr is 100% riskfree. Pay only for what you really get and save valuable time with your brand new end- to-end recruiting solution."
         "start-hiring": "Start hiring now!",
         "start-hiring-text": "We are currently building up a pool of motivated employees that are eager to work. Are you looking for great short term staff at the moment? If yes, submit your request now and we will already match you with suitable employees before we launch. Start taking advantage of your daily growing pool of employees today!"
     },
