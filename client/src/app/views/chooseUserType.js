@@ -34,15 +34,15 @@ export default React.createClass({
                         { this.getIntlMessage("chooseUserType.masthead-claim-2") }
                     </h1>
                     <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
-                        <button className="btn btn-primary m-30 mt-30 btn-lg text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
+                        <button className="btn btn-primary m-30 mt-30 btn-xl text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
                     </a>
-                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/uL8a0G">
+                    <a className="hidden visible-xs visible-sm" href={ this.getIntlMessage("typeformLinks.employee") }>
                         <button className="btn btn-primary m-30 mt-30 btn-lg text-center m-5">{ this.getIntlMessage("chooseUserType.button-find-job") }</button>
                     </a>
                     <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
-                        <button className="btn btn-primary m-30 btn-lg text-center m-5 mt-0">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
+                        <button className="btn btn-primary m-30 btn-xl text-center m-5 mt-0">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
                     </a>
-                    <a className="hidden visible-xs visible-sm" href="https://beavr.typeform.com/to/n7Yjw8">
+                    <a className="hidden visible-xs visible-sm" href={ this.getIntlMessage("typeformLinks.employer") }>
                         <button className="btn btn-primary m-30 btn-lg text-center m-5 mt-0">{ this.getIntlMessage("chooseUserType.button-find-employees") }</button>
                     </a>
                 </div>

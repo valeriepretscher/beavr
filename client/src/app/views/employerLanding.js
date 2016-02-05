@@ -34,10 +34,10 @@ export default React.createClass({
                         { this.getIntlMessage("employerLanding.masthead-claim-2") }
                     </h1>
                     <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
-                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                     </a>
                     <a className="hidden visible-xs visible-sm" href={ this.getIntlMessage("typeformLinks.employer") }>
-                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                        <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                     </a>
 
                     <div className="masthead-scroll-arrow hidden-xs">
@@ -50,7 +50,6 @@ export default React.createClass({
                     </div>
                 </div>
             </div>
-
 
             <div className="block block-lg app-block-profile">
                 <div className="container">
@@ -115,10 +114,10 @@ export default React.createClass({
                             <hr />
                             <hr />
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
-                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                             </a>
                             <a className="hidden visible-xs visible-sm" href={ this.getIntlMessage("typeformLinks.employer") }>
-                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
+                                <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                             </a>
                         </div>
                     </div>
