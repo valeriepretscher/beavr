@@ -403,7 +403,7 @@ body {
   -ms-transform: translateY(10%);
   transform: translateY(10%);
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .masthead-title {
     font-size: 32px !important;
     line-height: 45px;
