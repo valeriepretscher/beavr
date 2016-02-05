@@ -27,7 +27,7 @@ export default React.createClass({
 
             <div className="block pb-50 app-block-intro no-padding">
                 <div className="container padding-0">
-                    <div className="typeform-widget" data-url="https://beavr.typeform.com/to/uL8a0G" data-text="Beavr Pool Signup German"></div>
+                    <div className="typeform-widget" data-url={this.getIntlMessage('typeformLinks.employee') } data-text="Beavr Pool Signup German"></div>
                 </div>
             </div>
 
