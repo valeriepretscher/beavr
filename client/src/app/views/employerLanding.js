@@ -99,26 +99,40 @@ export default React.createClass({
                 </div>
             </div>
 
+            <div className="block block-lg app-block-chat">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-left">
+                            <h1 className="block-title">{ this.getIntlMessage("employerLanding.save-time-and-money") }</h1>
+                            <h3 className="lead">
+                                { this.getIntlMessage("employerLanding.save-time-and-money-text") }
+                            </h3>
+                        </div>
+                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
+                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/employer-piggy-bank.png" data-transition="entrance" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div id="#signup" className="block block-lg app-block-piggy-bank full-width">
                 <div className="container">
-                    <div className="row pb-30 pt-30">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <img className="img-responsive pull-left reset-margins-xs mb-30" src="../assets/img/employer-piggy-bank.png" data-transition="entrance" />
-                        </div>
+                    <div className="row">
                         <div className="col-md-5 col-sm-6 text-center">
-                            <h1 className="block-title">{ this.getIntlMessage("employerLanding.save-time-and-money") }</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("employerLanding.start-hiring") }</h1>
                             <hr />
                             <h2>
-                                { this.getIntlMessage("employerLanding.save-time-and-money-text") }
+                                { this.getIntlMessage("employerLanding.start-hiring-text") }
                             </h2>
-                            <hr />
-                            <hr />
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-employer">
                                 <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                             </a>
                             <a className="hidden visible-xs visible-sm" href={ this.getIntlMessage("typeformLinks.employer") }>
                                 <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("employerLanding.button-cta") }</button>
                             </a>
+                        </div>
+                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                            <img className="img-responsive pull-right reset-margins-xs mb-30" src="../assets/img/beavr-pool.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
