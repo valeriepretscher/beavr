@@ -56,5 +56,9 @@
         "masthead-claim-2": "dir heute helfen?",
         "button-find-job": "Ich suche einen Job",
         "button-find-employees": "Ich suche Mitarbeiter"
+    },
+    "typeformLinks" : {
+        "employer": "https://beavr.typeform.com/to/n7Yjw8",
+        "employee": "https://beavr.typeform.com/to/uL8a0G"
     }
 }

@@ -56,5 +56,9 @@
         "masthead-claim-2": "your day today?",
         "button-find-job": "Find my perfect job",
         "button-find-employees": "Find great employees"
+    },
+    "typeformLinks" :{
+        "employer": "https://beavr.typeform.com/to/Nkd0Aq",
+        "employee": "https://beavr.typeform.com/to/hRyzPX"
     }
 }
