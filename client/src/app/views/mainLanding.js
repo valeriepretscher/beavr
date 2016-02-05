@@ -131,21 +131,17 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div id="#signup" className="block block-lg app-block-pool pt-30 pb-50 full-width">
+            <div id="#signup" className="block block-lg app-block-pool pt-10 pb-50 full-width">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-sm-6 text-right">
                             <img className="img-responsive hidden-xs pull-left reset-margins-xs" src="../assets/img/beavr-pool.png" data-transition="entrance" />
                         </div>
-                        <div className="col-md-6 col-sm-6 text-center">
-                            <hr />
-                            <hr />
-                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.beavr-pool") }</h1>
-                            <hr />
+                        <div className="col-md-6 col-sm-6 text-center pt-30">
+                            <h1 className="block-title pt-30">{ this.getIntlMessage("mainLanding.beavr-pool") }</h1>
                             <h2>
                                 { this.getIntlMessage("mainLanding.beavr-pool-text") }
                             </h2>
-                            <hr />
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
                                 <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>

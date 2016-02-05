@@ -115,12 +115,11 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div id="#signup" className="block block-lg app-block-piggy-bank full-width">
+            <div id="#signup" className="block block-lg app-block-pool pt-30 pb-50 full-width">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-md-5 col-sm-6 text-center">
+                    <div className="row mb-20">
+                        <div className="col-md-5 col-sm-6 text-center pt-20">
                             <h1 className="block-title">{ this.getIntlMessage("employerLanding.start-hiring") }</h1>
-                            <hr />
                             <h2>
                                 { this.getIntlMessage("employerLanding.start-hiring-text") }
                             </h2>
@@ -132,7 +131,7 @@ export default React.createClass({
                             </a>
                         </div>
                         <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
-                            <img className="img-responsive pull-right reset-margins-xs mb-30" src="../assets/img/beavr-pool.png" data-transition="entrance" />
+                            <img className="img-responsive pull-right reset-margins-xs mt-30" src="../assets/img/beavr-pool.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
