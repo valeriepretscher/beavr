@@ -45,13 +45,13 @@ export default React.createClass({
             <div className="block block-lg app-block-profile">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.showcase-your-beast") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.beast-text") }
                             </h3>
                         </div>
-                        <div className="col-md-5 col-sm-6">
+                        <div className="col-md-6 col-sm-6">
                             <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/seeker-profile-mirror.png" data-transition="entrance" />
                         </div>
                     </div>
@@ -74,33 +74,33 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-chat">
+            <div className="block block-lg app-block-truck">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-right">
-                            <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/seeker-chat.png" data-transition="entrance" />
-                        </div>
-                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
-                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.seamless-communication") }</h1>
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.seamless-communication") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.seamless-communication-text") }
                             </h3>
+                        </div>
+                        <div className="col-md-6 col-sm-6 pull-xs-right">
+                            <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/seeker-chat.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="block block-lg app-block-truck">
+            <div className="block block-lg app-block-chat">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-sm-6 pull-xs-right">
-                            <img className="img-responsive pull-left reset-margins-xs" src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
-                        </div>
-                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-left">
                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.element-of-fun") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.element-of-fun-text") }
                             </h3>
+                        </div>
+                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-right">
+                            <img className="img-responsive pull-left reset-margins-xs" src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -109,7 +109,7 @@ export default React.createClass({
             <div className="block block-lg app-block-giraffe">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left m-t-lg reset-margins-xs">
                             <h1 className="block-title">{ this.getIntlMessage("mainLanding.enjoy-life") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.enjoy-life-text") }
