@@ -42,6 +42,19 @@ export default React.createClass({
                 </div>
             </div>
 
+            <div className="block pt-0 pb-10 hidden visible-xs">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12 col-sm-6 text-center">
+                            <h4>{this.getIntlMessage('mainLanding.are-you-hiring') }</h4>
+                            <a href="/employers">
+                                <button className="btn btn-primary btn-xl text-center btn-default-outline">{ this.getIntlMessage('mainLanding.button-business') }</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className="block block-lg app-block-profile">
                 <div className="container">
                     <div className="row">
