@@ -279,6 +279,9 @@ body {
   right: auto;
 }
 .app-block-intro {
+  padding-top: 7%;
+}
+.app-block-intro-index {
   text-align: center;
   background: url("./img/masthead-bg-city.png") no-repeat center top;
   background-attachment: relative;
@@ -295,8 +298,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
   min-height: 800px;
+  margin-bottom: 90px;
 }
-.app-block-intro img {
+.app-block-intro-index img {
   text-align: center;
   width: 80%;
   border-bottom: none !important;
