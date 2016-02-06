@@ -39,15 +39,6 @@ export default React.createClass({
                     <a className="hidden visible-xs visible-sm" href={this.getIntlMessage('typeformLinks.employee') }>
                         <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                     </a>
-
-                    <div className="masthead-scroll-arrow">
-                        <span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="16" viewBox="0 0 37 16">
-                                <path d="M19.075 15.43c-.35.366-.926.414-1.334.097L.76 2.08C.326 1.743.248 1.115.587.68.926.242 1.553.163 1.99.502L18.35 13.46 34.864.617c.436-.34 1.064-.26 1.403.175.34.436.26 1.065-.175 1.404L19.075 15.43z" fill="#CCD3DC" fill-rule="evenodd">
-                                </path>
-                            </svg>
-                        </span>
-                    </div>
                 </div>
             </div>
 
@@ -83,33 +74,33 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div className="block block-lg app-block-truck">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
-                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.element-of-fun") }</h1>
-                            <h3 className="lead">
-                                { this.getIntlMessage("mainLanding.element-of-fun-text") }
-                            </h3>
-                        </div>
-                        <div className="col-md-6 col-sm-6 pull-xs-right">
-                            <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div className="block block-lg app-block-chat">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-left">
+                        <div className="col-md-6 col-lg-push-6 col-sm-6 text-xs-center text-sm-right">
+                            <img className="img-responsive pull-right reset-margins-xs" src="../assets/img/seeker-chat.png" data-transition="entrance" />
+                        </div>
+                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
                              <h1 className="block-title">{ this.getIntlMessage("mainLanding.seamless-communication") }</h1>
                             <h3 className="lead">
                                 { this.getIntlMessage("mainLanding.seamless-communication-text") }
                             </h3>
                         </div>
-                        <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-right">
-                            <img className="img-responsive pull-left reset-margins-xs" src="../assets/img/seeker-chat.png" data-transition="entrance" />
+                    </div>
+                </div>
+            </div>
+
+            <div className="block block-lg app-block-truck">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6 col-sm-6 pull-xs-right">
+                            <img className="img-responsive pull-left reset-margins-xs" src="../assets/img/employer-ice-cream-truck.png" data-transition="entrance" />
+                        </div>
+                        <div className="col-md-6 col-sm-6 text-xs-center text-sm-left">
+                            <h1 className="block-title">{ this.getIntlMessage("mainLanding.element-of-fun") }</h1>
+                            <h3 className="lead">
+                                { this.getIntlMessage("mainLanding.element-of-fun-text") }
+                            </h3>
                         </div>
                     </div>
                 </div>

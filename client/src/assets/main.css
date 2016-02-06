@@ -343,8 +343,8 @@ body {
   .app-block-game-img {
     transform: scale(1.5) !important;
   }
-  .app-block-intro {
-    min-height: 570px;
+  .app-block-intro-index {
+    min-height: 500px;
   }
 }
 @media (min-width: 768px) {
