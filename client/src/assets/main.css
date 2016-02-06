@@ -58,51 +58,6 @@
 #forgot .spacer {
   margin-top: 15px;
 }
-.app-beavr-masthead {
-  margin-top: 8%;
-  margin-bottom: 12%;
-}
-.masthead-title {
-  font-size: 81px;
-  line-height: 81px;
-}
-.masthead-scroll-arrow {
-  display: block;
-  position: absolute;
-  bottom: 2%;
-  left: 49%;
-  right: auto;
-}
-.app-block-intro {
-  padding-top: 20px;
-}
-.app-block-intro img {
-  text-align: center;
-  width: 80%;
-  border-bottom: none !important;
-}
-.app-block-profile img,
-.app-block-truck img,
-.app-block-chat img,
-.app-block-race-car img {
-  width: 400px;
-  margin-top: -75px;
-}
-.app-block-pool img {
-  margin-top: 100px;
-  width: 500px;
-}
-.app-block-race-car img {
-  width: 470px;
-}
-.app-block-employer-picker img {
-  width: 470px;
-  margin-top: -120px;
-}
-.app-block-giraffe img {
-  width: 350px;
-  margin-top: -190px;
-}
 #profile .input-description {
   width: 100%;
   min-height: 40px;
@@ -310,12 +265,11 @@ body {
   font-size: 13px;
 }
 .app-beavr-masthead {
-  margin-top: 8%;
-  margin-bottom: 12%;
+  padding-bottom: 7%;
 }
 .masthead-title {
-  font-size: 81px;
-  line-height: 81px;
+  font-size: 61px;
+  line-height: 61px;
 }
 .masthead-scroll-arrow {
   display: block;
@@ -325,7 +279,22 @@ body {
   right: auto;
 }
 .app-block-intro {
-  padding-top: 20px;
+  text-align: center;
+  background: url("./img/masthead-bg-city.png") no-repeat center top;
+  background-attachment: relative;
+  background-position: center center;
+  padding-top: 8%;
+  box-sizing: border;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 800px;
 }
 .app-block-intro img {
   text-align: center;
@@ -369,6 +338,9 @@ body {
 @media (max-width: 480px) {
   .app-block-game-img {
     transform: scale(1.5) !important;
+  }
+  .app-block-intro {
+    min-height: 570px;
   }
 }
 @media (min-width: 768px) {

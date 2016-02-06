@@ -25,7 +25,7 @@ export default React.createClass({
                     title="Be independent"
                 />
 
-            <div className="block pb-50 app-block-intro">
+            <div className="block app-block-intro full-width">
                 <div className="container text-center app-beavr-masthead">
                     <h1 className="masthead-title">
                         <span className="text-primary">{ this.getIntlMessage("mainLanding.masthead-greeting") }</span><br />

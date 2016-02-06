@@ -16,7 +16,7 @@ export default React.createClass( {
 
     render() {
         return (
-            <nav className="navbar-component navbar navbar-transparent navbar-static-top navbar-inverse" role="navigation">
+            <nav className="navbar-component navbar navbar-transparent navbar-inverse m-b-0" role="navigation">
                 <div className="container">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle" data-toggle="collapse"
