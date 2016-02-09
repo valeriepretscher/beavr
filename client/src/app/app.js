@@ -35,10 +35,10 @@ var strings = messages[locale] ? messages[locale] : messages['en-US']
  * sure the object that we pass to intlData contains all keys based on the en-US
  * messages otherwise React-intl will throw up on us */
 
-strings = Object.assign(messages['en-US'], strings);
+strings = Object.assign(messages['en'], strings);
 
 var intlData = {
-    locales : ['de-AT', 'de-DE', 'en-US'],
+    locales : ['de', 'en'],
     messages: strings
 };
 
