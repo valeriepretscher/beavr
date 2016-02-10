@@ -1,11 +1,11 @@
 // This is essentially bulk require to load all the language strings
 
 var req = require.context('../locale', true, /\.json.*$/);
-var exports = {};
+let messages = {};
 
 req.keys().forEach(function (file) {
   var locale = file.replace('./', '').replace('.json', '');
-  exports[locale] = req(file);
+  messages[locale] = req(file);
 });
 
-module.exports = exports;
+export default messages;
