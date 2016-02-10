@@ -20,6 +20,12 @@ layout.setDirection = function (direction) {
         if (rule.style.getPropertyValue('float') && rule.selectorText.match(/\.col-(xs|sm|md|lg)-\d\d*/)) {
             rule.style.setProperty('float', (layout.rtl ? 'right' : 'left'));
         }
+        if (rule.style.getPropertyValue('text-align') && rule.selectorText.match(/\.text-(xs|sm|md|lg)-(left|right)/)) {
+            rule.style.setProperty('text-align', (layout.rtl ? 'right' : 'left'));
+        }
+        if (rule.style.getPropertyValue('text-align') && rule.selectorText.match(/\.text-(left|right)/)) {
+            rule.style.setProperty('text-align', (layout.rtl ? 'right' : 'left'));
+        }
     };
     try {
         for (var i = 0; i < styleSheets.length; i++) {
