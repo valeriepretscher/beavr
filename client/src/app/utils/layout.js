@@ -21,6 +21,7 @@ layout.setDirection = function (direction) {
             rule.style.setProperty('float', (layout.rtl ? 'right' : 'left'));
         }
         if (rule.style.getPropertyValue('text-align') && rule.selectorText.match(/\.text-(xs|sm|md|lg)-(left|right)/)) {
+            alert (rule.selectorText);
             rule.style.setProperty('text-align', (layout.rtl ? 'right' : 'left'));
         }
         if (rule.style.getPropertyValue('text-align') && rule.selectorText.match(/\.text-(left|right)/)) {
