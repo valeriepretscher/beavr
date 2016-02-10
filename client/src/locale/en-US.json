@@ -62,5 +62,34 @@
     "typeformLinks" :{
         "employer": "https://beavr.typeform.com/to/Nkd0Aq",
         "employee": "https://beavr.typeform.com/to/hRyzPX"
+    },
+    "ambassadorProgram" : {
+        "welcome": "Welcome to the beavr ambassador programm",
+        "beavr personal assitent ": "Beavr is your personal assitent for short-term jobs. We are helping you to earn additional money and gain baluable experience",
+        "beavr ambassador ": "We're ready to take on the world and we're selecting enthusiastic campus ambassadors to join our team and help us grow.",
+        "apply now": "Apply now",
+        "why": "Why should you become a beavr Ambassador?",
+        "experience for life-1": "Experience for life!",
+        "experience for life": "As a beavr Ambassador you're part of an experienced team of pioneers. Step into the marketing of a new emerging startup and learn hand on how to build a great brand",
+        "networking what-1": "Networking!",
+        "networking what": "As an Ambassador you build your personal network of ambitious talents who think just like you!",
+        "incredible Perks": "incredible Perks",
+        "support": "(t-shirts, hoodies, stickers, premium mentorship from experienced entrepeneurs and awsome events)Get a chance to win a 1,000 € scholarship and a paid internship.",
+        "what1": "What would you do as an Ambassador?",
+        "what": "Be the face of Beavr on your high school/ uni campus.",
+        "communication1": "communication!",
+        "communication": "Introduce Beaver to your friends and classmates and help them find great jobs.",
+        "support1": "Support!",
+        "support": "You are supporting us in the development and implementation of social media campaigns and various marketing activities.",
+        "networking": "Networking! ",
+        "networking": "Assemble a dream to conquer your campus, drive engagement and generate excitement.",
+        "who?": "Who should apply?",
+        "age": "you are inbetween 16-26 years old",
+        "cool": "You are an scene connoisseur who knows exactly what is going on in your city and on campus",
+        "digital media": "You are interested in digital media and the expension of a brand",
+        "communicative": "You are simultaneously communicative, sociable and sympathetic",
+        "contacts": "You have many contacts in your social networks",
+        "brand": "You can identify with our brand",
+        "Join Us now": "Join Us now!"
     }
 }
