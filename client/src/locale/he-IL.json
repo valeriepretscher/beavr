@@ -60,8 +60,8 @@
         "button-find-employees": "מצא עובדים מצוינים"
     },
     "typeformLinks" : {
-        "employer": "https://beavr.typeform.com/to/Nkd0Aq",
-        "employee": "https://beavr.typeform.com/to/hRyzPX"
+        "employer": "https://beavr.formstack.com/forms/beavr_employer_hebrew",
+        "employee": "https://beavr.formstack.com/forms/beavr_signup_hebrew"
     },
     "ambassadorProgram" : {
         "welcome": "הי, ברוכים הבאים לתוכנית השגרירים של ביבר",
