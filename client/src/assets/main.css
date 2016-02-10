@@ -305,12 +305,15 @@ body {
   width: 80%;
   border-bottom: none !important;
 }
-.app-block-profile img,
 .app-block-truck img,
 .app-block-chat img,
 .app-block-race-car img {
   width: 400px;
   margin-top: -75px;
+}
+.app-block-profile img {
+  width: 400px;
+  margin-top: -35px;
 }
 .app-block-pool img {
   margin-top: 100px;
