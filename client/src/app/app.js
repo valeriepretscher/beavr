@@ -29,16 +29,31 @@ debug("begins");
 var locale = navigator.language.split('-')
 locale = locale[1] ? `${locale[0]}-${locale[1].toUpperCase()}` : navigator.language
 
-var strings = messages[locale] ? messages[locale] : messages['en-US']
+/* Define language fallbacks because browsers are shitty regarding being
+ *  consistent about this stuff */
+
+var strings;
+
+if (messages[locale]) {
+    strings = messages[locale];
+} else if ( locale.substring(0,2)  == 'de' ) {
+    strings = messages['de-AT'];
+} else if ( locale.substring(0,2)  == 'he' ) {
+    strings = messages['he-IL'];
+} else if ( locale.substring(0,2)  == 'en' ) {
+    strings = messages['en-US'];
+} else {
+    strings = messages['en-US'];
+}
 
 /* Sometimes we will include a language with partial translation and we need to make
  * sure the object that we pass to intlData contains all keys based on the en-US
  * messages otherwise React-intl will throw up on us */
 
-strings = Object.assign(messages['en'], strings);
+strings = Object.assign(messages['en-US'], strings);
 
 var intlData = {
-    locales : ['de', 'en'],
+    locales : ['de-AT', 'de-DE', 'en-US', 'he-IL'],
     messages: strings
 };
 
