@@ -15,12 +15,16 @@ import routes from './routes';
 import messages from './messages';
 import Debug from 'debug';
 import 'utils/ga';
+import layout from 'utils/layout';
 
 Debug.enable("*,-engine*,-socket*");
 
 let debug = new Debug("app");
 
 debug("begins");
+
+// We're not using this ATM - for future reference.
+// PREFERRED_LANGUAGE = navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage || DEFAULT_VALUE;
 
 /* Extract the language code from the browser using navigator.language, then rewrite
  * the string to match what we have in our dictionary from messages.js. toUpperCase()
@@ -29,8 +33,9 @@ debug("begins");
 var locale = navigator.language.split('-')
 locale = locale[1] ? `${locale[0]}-${locale[1].toUpperCase()}` : navigator.language
 
+
 /* Define language fallbacks because browsers are shitty regarding being
- *  consistent about this stuff */
+ * consistent about this stuff */
 
 var strings;
 
@@ -70,3 +75,11 @@ function createIntlElement(Component, props) {
 let mountEl = document.getElementById('application');
 
 ReactDOM.render(<Router  history={createBrowserHistory()} createElement={createIntlElement} routes={routes} />, mountEl);
+
+
+/*  Switch the writing direction if we're in Hebrew, or maybe later a
+ *  different RTL language. @TODO: This is a hacky. */
+
+if ( locale.substring(0,2)  == 'he' ) {
+    layout.setDirection('rtl');
+}
