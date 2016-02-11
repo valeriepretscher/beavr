@@ -61,12 +61,13 @@
     },
     "typeformLinks" :{
         "employer": "https://beavr.typeform.com/to/Nkd0Aq",
-        "employee": "https://beavr.typeform.com/to/hRyzPX"
+        "employee": "https://beavr.typeform.com/to/uL8a0G",
+        "ambassador": "https://beavr.typeform.com/to/uL8a0G"
     },
     "ambassadorProgram" : {
-        "welcome": "Welcome to the beavr ambassador programm",
-        "beavr-personal-assistant ": "Beavr is your personal assitent for short-term jobs. We are helping you to earn additional money and gain baluable experience",
-        "beavr-ambassador ": "We're ready to take on the world and we're selecting enthusiastic campus ambassadors to join our team and help us grow.",
+        "welcome": "Welcome to the beavr Ambassador Program",
+        "beavr-personal-assistant": "Beavr is your personal assitent for short-term jobs. We are helping you to earn additional money and gain baluable experience",
+        "beavr-ambassador": "We're ready to take on the world and we're selecting enthusiastic campus ambassadors to join our team and help us grow.",
         "apply-now": "Apply now",
         "why": "Why should you become a beavr Ambassador?",
         "experience-for-life-1": "Experience for life!",

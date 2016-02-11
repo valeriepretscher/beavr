@@ -17,6 +17,8 @@ import ResetPassword from 'views/resetPassword';
 import MyProfile from 'views/myProfile';
 import TypeformEmployee from 'views/typeformEmployee'
 import TypeformEmployer from 'views/typeformEmployer'
+import BecomeAnAmbassador from 'views/becomeAnAmbassador'
+import TypeformAmbassador from 'views/typeformAmbassador'
 
 import UsersView from 'parts/admin/usersView';
 
@@ -37,8 +39,10 @@ let routes = (
         <Route component={ResetPassword} name="ResetPasswordToken" path="resetPassword/:token"/>
 
         <Route component={TypeformEmployee} path="register-employee"/>
-
         <Route component={TypeformEmployer} path="register-employer"/>
+
+        <Route component={BecomeAnAmbassador} path="become-an-ambassador"/>
+        <Route component={TypeformAmbassador} path="register-ambassador"/>
 
         <Route component={UsersView} path="users"/>
 
