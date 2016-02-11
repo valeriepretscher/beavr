@@ -72,7 +72,12 @@ gulp.task( 'build:cp', function () {
         './src/favicon.png',
         './src/**/assets/img/*.png',
         './src/**/assets/img/*.jpg',
-        './src/**/assets/img/*.svg'
+        './src/**/assets/img/*.svg',
+        './src/**/assets/img/*.gif',
+        './src/**/assets/img/EMAIL-CONTENT/*.png',
+        './src/**/assets/img/EMAIL-CONTENT/*.jpg',
+        './src/**/assets/img/EMAIL-CONTENT/*.gif',
+        './src/**/assets/img/EMAIL-CONTENT/*.svg'
     ] )
     .pipe(debug())
     .pipe( gulp.dest( 'build/' ) );
