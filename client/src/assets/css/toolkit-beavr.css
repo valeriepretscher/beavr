@@ -8416,7 +8416,7 @@ h1.block-title {
 .navbar-transparent {
   background-color: transparent;
   border: 0px;
-  padding-bottom: 14px !important;
+  padding-bottom: 13px !important;
   border-bottom: 1px solid #ffd9d9;
 }
 .navbar-transparent .navbar-brand {
