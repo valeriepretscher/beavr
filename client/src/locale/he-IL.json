@@ -12,6 +12,7 @@
         "press": "לחץ",
         "job-seekers": "בית",
         "employers": "לעסקים",
+        "become-an-ambassador": "beavr Ambassadors",
         "about-text-1": "תקראו לנו משוגעים, אך אנו מאמינים שיש דרך חכמה יותר להתאמת צעירים נלהבים המחפשים עבודה עם מעסיקים שזקוקים לצוות מוכשר ואמין. המשימה שלנו היא לבנות את הפלטפורמה המהירה ביותר לחיפוש עבודה לטווח הקצר, המספקת למחפשי העבודה פתרון פשוט ואפקטיבי לעשיית כסף מהצד ולמעסיקים את מאגר הנתונים והכלים שהם צריכים על מנת לשכור מועמדים איכותיים במהירות..",
         "about-text-2": "לצערנו, עולם גיוס העבודה עדין מונע על ידי ניירת של הגשת מועמדות , קורות חיים לא מובנים, לוחות מחפשי עבודה מיושנים, שליחת אימיילים אינסופיים וכתיבת מכתבי מוטיבציה מעייפים. הגיע הזמן לשנות את זה."
     },
@@ -61,7 +62,7 @@
     },
     "typeformLinks" : {
         "employer": "https://beavr.formstack.com/forms/beavr_employer_hebrew",
-        "employee": "https://beavr.typeform.com/to/uL8a0G",
+        "employee": "https://beavr.formstack.com/forms/beavr_signup_hebrew",
         "ambassador": "https://beavr.formstack.com/forms/untitled_form_5"
     },
     "ambassadorProgram" : {
