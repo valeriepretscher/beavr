@@ -82,12 +82,12 @@ export default React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-push-6 col-sm-6 text-left">
-                            <h1 className="block-title">{ this.getIntlMessage("ambassadorProgram.welcome") }</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("ambassadorProgram.what1") }</h1>
                             <h3 className="lead">
-                                { this.getIntlMessage("ambassadorProgram.beavr-personal-assistant") }
+                                <strong>{ this.getIntlMessage("ambassadorProgram.organization1") }</strong> { this.getIntlMessage("ambassadorProgram.organization") }
                             </h3>
                             <h3 className="lead">
-                                { this.getIntlMessage("ambassadorProgram.beavr-ambassador") }
+                                <strong>{ this.getIntlMessage("ambassadorProgram.networking-what-1") }</strong> { this.getIntlMessage("ambassadorProgram.networking-what") }
                             </h3>
 
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-ambassador">
