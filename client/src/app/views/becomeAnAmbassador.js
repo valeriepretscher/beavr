@@ -46,7 +46,7 @@ export default React.createClass({
 
                         </div>
                         <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
-                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/super-beavr.png" data-transition="entrance" />
+                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/ambassador-rocket.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -56,15 +56,15 @@ export default React.createClass({
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 col-lg-push-6 col-sm-6t">
-                            <img className="img-responsive reset-margins-xs pull-right" src="../assets/img/super-beavr.png" data-transition="entrance" />
+                            <img className="img-responsive reset-margins-xs pull-right" src="../assets/img/ambassador-rally.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
-                            <h1 className="block-title">{ this.getIntlMessage("ambassadorProgram.welcome") }</h1>
+                            <h1 className="block-title">{ this.getIntlMessage("ambassadorProgram.why") }</h1>
                             <h3 className="lead">
-                                { this.getIntlMessage("ambassadorProgram.beavr-personal-assistant") }
+                                <strong>{ this.getIntlMessage("ambassadorProgram.experience-for-life-1") }</strong> { this.getIntlMessage("ambassadorProgram.experience-for-life") }
                             </h3>
                             <h3 className="lead">
-                                { this.getIntlMessage("ambassadorProgram.beavr-ambassador") }
+                                <strong>{ this.getIntlMessage("ambassadorProgram.networking-what-1") }</strong> { this.getIntlMessage("ambassadorProgram.networking-what") }
                             </h3>
 
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-ambassador">
@@ -99,7 +99,7 @@ export default React.createClass({
 
                         </div>
                         <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
-                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/super-beavr.png" data-transition="entrance" />
+                            <img className="img-responsive reset-margins-xs pull-left" src="../assets/img/ambassador-sailing.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ export default React.createClass({
                             </a>
                         </div>
                         <div className="col-md-6 col-sm-6">
-                            <img className="img-responsive hidden-xs pull-right reset-margins-xs" src="../assets/img/beavr-pool.png" data-transition="entrance" />
+                            <img className="img-responsive hidden-xs pull-right reset-margins-xs" src="../assets/img/ambassador-party.png" data-transition="entrance" />
                         </div>
                     </div>
                 </div>

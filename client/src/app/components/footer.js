@@ -20,14 +20,19 @@ export default React.createClass({
                         <ul className="list-unstyled list-spaced">
                           <li><h6 className="text-uppercase text-primary">{ this.getIntlMessage("footer.heading-signup") }</h6></li>
                           <li>
-                              <a href="https://beavr.typeform.com/to/uL8a0G">
+                              <a href = { this.getIntlMessage("typeformLinks.employee") } >
                                 { this.getIntlMessage("footer.job-seekers") }
                             </a>
                           </li>
                           <li>
-                            <a href="https://beavr.typeform.com/to/n7Yjw8">
+                            <a href= { this.getIntlMessage("typeformLinks.employee") } >
                                 { this.getIntlMessage("footer.employers") }
                             </a>
+                          </li>
+                          <li>
+                              <a href="/become-an-ambassador">
+                                { this.getIntlMessage("footer.become-an-ambassador") }
+                              </a>
                           </li>
                           <li>
                             <a href="mailto:hello@beavr.com">
