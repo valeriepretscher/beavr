@@ -55,7 +55,7 @@ export default React.createClass({
             <div className="block block-lg app-block-super-beavr">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-lg-push-6 col-sm-6t">
+                        <div className="col-md-6 col-lg-push-6 col-sm-6">
                             <img className="img-responsive reset-margins-xs pull-right" src="../assets/img/ambassador-rally.png" data-transition="entrance" />
                         </div>
                         <div className="col-md-6 col-lg-pull-6 col-sm-6 text-xs-center text-sm-left">
@@ -87,7 +87,10 @@ export default React.createClass({
                                 <strong>{ this.getIntlMessage("ambassadorProgram.organization1") }</strong> { this.getIntlMessage("ambassadorProgram.organization") }
                             </h3>
                             <h3 className="lead">
-                                <strong>{ this.getIntlMessage("ambassadorProgram.networking-what-1") }</strong> { this.getIntlMessage("ambassadorProgram.networking-what") }
+                                <strong>{ this.getIntlMessage("ambassadorProgram.communication1") }</strong> { this.getIntlMessage("ambassadorProgram.communication") }
+                            </h3>
+                            <h3 className="lead">
+                                <strong>{ this.getIntlMessage("ambassadorProgram.support1") }</strong> { this.getIntlMessage("ambassadorProgram.support") }
                             </h3>
 
                             <a className="hidden visible-md visible-lg visible-xl" href="/register-ambassador">
@@ -105,21 +108,27 @@ export default React.createClass({
                 </div>
             </div>
 
-            <div id="#signup" className="block block-lg app-block-pool pt-10 pb-50 full-width">
+            <div id="#signup" className="block block-lg pt-10 pb-50 full-width">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-sm-6 text-center">
-                            <h1 className="block-title pt-30">{ this.getIntlMessage("mainLanding.beavr-pool") }</h1>
-                            <h2>
-                                { this.getIntlMessage("mainLanding.beavr-pool-text") }
-                            </h2>
-                            <a className="hidden visible-md visible-lg visible-xl" href="/register-employee">
+                        <div className="col-md-6 col-sm-6">
+                            <h1 className="block-title pt-30 pb-30">{ this.getIntlMessage("ambassadorProgram.who") }</h1>
+
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.cool") } </h4>
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.age") } </h4>
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.digital-media") } </h4>
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.communicative") } </h4>
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.contacts") } </h4>
+                            <h4> ✓ { this.getIntlMessage("ambassadorProgram.brand") } </h4>
+
+                            <a className="hidden visible-md visible-lg visible-xl" href="/register-ambassador">
                                 <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>
-                            <a className="hidden visible-xs visible-sm" href={this.getIntlMessage('typeformLinks.employee') }>
+                            <a className="hidden visible-xs visible-sm" href={this.getIntlMessage('typeformLinks.ambassador') }>
                                 <button className="btn btn-primary mt-30 btn-xl text-center m-5">{ this.getIntlMessage("mainLanding.button-cta") }</button>
                             </a>
                         </div>
+
                         <div className="col-md-6 col-sm-6">
                             <img className="img-responsive hidden-xs pull-right reset-margins-xs" src="../assets/img/ambassador-party.png" data-transition="entrance" />
                         </div>

@@ -364,6 +364,9 @@ body {
     margin-left: 0;
   }
 }
+.ambassador-list {
+  font-size: 25px !important;
+}
 .app-block-footer {
   padding-top: 70px;
   font-size: 15px;
