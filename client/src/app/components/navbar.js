@@ -26,7 +26,7 @@ export default React.createClass( {
                             <span className="icon-bar"></span>
                         </button>
                         <Link to="/" className="navbar-brand brand-logo">
-                            <img  width="115px" src="../assets/img/logo-red.png" />
+                            <img  width="115px" src="../assets/img/logo-white.png" />
                         </Link>
                     </div>
                     <div className="navbar-collapse collapse">

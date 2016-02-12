@@ -168,7 +168,7 @@
 }
 .brand-logo {
   width: 200px;
-  margin-top: -20px;
+  margin-top: -18px;
 }
 .spinner {
   text-align: center;
@@ -234,7 +234,7 @@
   padding-right: 5px;
 }
 body {
-  padding-top: 5px;
+  padding-top: 0;
 }
 .strike {
   position: relative;
@@ -268,8 +268,10 @@ body {
   padding-bottom: 7%;
 }
 .masthead-title {
+  margin-top: 40px;
   font-size: 61px;
   line-height: 61px;
+  color: #fff;
 }
 .masthead-scroll-arrow {
   display: block;
