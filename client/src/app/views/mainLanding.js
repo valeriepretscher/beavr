@@ -27,7 +27,7 @@ export default React.createClass({
 
             <div className="block app-block-intro-index full-width">
                 <div className="container text-center app-beavr-masthead">
-                    <h1 className="masthead-title">
+                    <h1 className="masthead-title white">
                         <span className="text-primary">{ this.getIntlMessage("mainLanding.masthead-greeting") }</span><br />
                         { this.getIntlMessage("mainLanding.masthead-claim-1") }
                         <br />
